@@ -39,7 +39,7 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = ["Advertising", "Location Based", "Virtual Reality"]` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Youth PA"]
+# tags = ["Youth PA"]
 
 # Links (optional).
 #url_pdf = ""
@@ -57,7 +57,7 @@ tags = ["Youth PA"]
 #url_custom = [{name = "Custom Link", url = "http://example.org"}]
 
 # Does this page contain LaTeX math? (true/false)
-#math = true
+math = true
 
 # Does this page require source code highlighting? (true/false)
 highlight = true
