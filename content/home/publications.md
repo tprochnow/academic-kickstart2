@@ -23,12 +23,25 @@ subtitle = ""
   # Page order. Descending (desc) or ascending (asc) date.
   order = "desc"
 
+filter_default = 0
+  
+   [[content.filter_button]]
+     name = "All"
+     tag = "*"
+  
+   [[content.filter_button]]
+     name = "Social Network Analysis"
+     tag = "SNA"
+  
+   [[content.filter_button]]
+     name = "Youth Physical Activity"
+     tag = "Youth PA"
   # Filter posts by a taxonomy term.
-  [content.filters]
-    tag = ""
-    category = ""
-    publication_type = ""
-    exclude_featured = false
+#  [content.filters]
+#    tag = ""
+#    category = ""
+#    publication_type = ""
+#    exclude_featured = false
   
 [design]
   # Toggle between the various page layout types.
