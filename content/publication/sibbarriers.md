@@ -28,7 +28,7 @@ publication = "*American Journal of Health Behavior*"
 # image_preview = ""
 
 # Is this a selected publication? (true/false)
-selected = True
+selected = true
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
