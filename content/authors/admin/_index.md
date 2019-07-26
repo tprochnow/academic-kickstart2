@@ -22,7 +22,7 @@ bio: My research interests include social network analysis and health behavior.
 
 interests:
 - Social Network Analysis
-- Child and Adolescent Physical Activity
+- Youth Physical Activity
 - Health Behavior
 - Systematic Observation
 
