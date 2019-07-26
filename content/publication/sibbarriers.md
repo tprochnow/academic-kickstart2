@@ -22,10 +22,10 @@ publication = "*American Journal of Health Behavior*"
 #publication_short = "In **"
 
 # Abstract and optional shortened version.
-abstract = ""
+# abstract = ""
 
 # Featured image thumbnail (optional)
-image_preview = ""
+# image_preview = ""
 
 # Is this a selected publication? (true/false)
 selected = True
@@ -42,15 +42,15 @@ projects = ["SPUSF"]
  tags = ["Youth PA"]
 
 # Links (optional).
-#url_pdf = ""
-#url_preprint = "#"
-#url_code = "#"
-#url_dataset = "#"
-#url_project = "#"
-#url_slides = "#"
-#url_video = "#"
-#url_poster = "#"
-#url_source = "#"
+# url_pdf = ""
+# url_preprint = "#"
+# url_code = "#"
+# url_dataset = "#"
+# url_project = "#"
+# url_slides = "#"
+# url_video = "#"
+# url_poster = "#"
+# url_source = "#"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
