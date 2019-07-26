@@ -1,6 +1,6 @@
 +++
 title = "Percieved physical activity barriers of Mexican-heritage sibling dyads"
-date = 2019-00-00
+date = 2019-07-01
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -28,18 +28,18 @@ abstract = ""
 image_preview = ""
 
 # Is this a selected publication? (true/false)
-selected = false
+selected = True
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter your project's filename without extension.
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
 #   Otherwise, set `projects = []`.
-projects = []
+projects = ["SPUSF"]
 
 # Tags (optional).
 #   Set `tags = ["Advertising", "Location Based", "Virtual Reality"]` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-# tags = ["Youth PA"]
+ tags = ["Youth PA"]
 
 # Links (optional).
 #url_pdf = ""
@@ -54,7 +54,7 @@ projects = []
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-#url_custom = [{name = "Custom Link", url = "http://example.org"}]
+url_custom = [{name = "Read here", url = "https://www.ingentaconnect.com/content/png/ajhb/2019/00000043/00000004/art00011"}]
 
 # Does this page contain LaTeX math? (true/false)
 math = true
