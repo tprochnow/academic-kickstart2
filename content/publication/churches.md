@@ -22,11 +22,7 @@ publication = "*Health Behavior and Policy Review*"
 publication_short = "In *Health Behavior and Policy Review*"
 
 # Abstract and optional shortened version.
- abstract = "Objective: This study aims to assess churches as community physical activity (PA) resources in person and via Geographic Information System (GIS) tools. 
-Methods: Churches (N = 450) in seven communities were assessed using an adapted version of the PA Resource Assessment (PARA) in person and using web-based GIS views. Validity of web-based PARA methods was examined using weighted kappa, percent agreement, and Wilcoxon Signed Rank. 
-Results: Average PARA ratings for features (2.39) and amenities (2.81) were high quality; incivilities (1.91) were not a high inconvenience. Most PARA items had slight-to-fair agreement (64.7%) between GIS and in-person assessment; however, items displayed low weighted kappa statistics and quality ratings were significantly different as determined by a Wilcoxon Signed Rank test. 
-Conclusions: Churches may be viable community PA resources and provide locations for PA. Web-based assessment may not capture quality as well as in-person assessment and more research should be done as technology advances
-"
+ abstract = "Objective: This study aims to assess churches as community physical activity (PA) resources in person and via Geographic Information System (GIS) tools.  Methods: Churches (N = 450) in seven communities were assessed using an adapted version of the PA Resource Assessment (PARA) in person and using web-based GIS views. Validity of web-based PARA methods was examined using weighted kappa, percent agreement, and Wilcoxon Signed Rank.  Results: Average PARA ratings for features (2.39) and amenities (2.81) were high quality; incivilities (1.91) were not a high inconvenience. Most PARA items had slight-to-fair agreement (64.7%) between GIS and in-person assessment; however, items displayed low weighted kappa statistics and quality ratings were significantly different as determined by a Wilcoxon Signed Rank test.  Conclusions: Churches may be viable community PA resources and provide locations for PA. Web-based assessment may not capture quality as well as in-person assessment and more research should be done as technology advances. "
 
 # Featured image thumbnail (optional)
 # image_preview = ""
