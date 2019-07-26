@@ -9,7 +9,7 @@ title = "Health For You and Your Family"
 summary = "Healthy eating, active living, and family dynamics intervention on the Texas-Mexico border"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = ""
+image_preview = "SPUSF.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
