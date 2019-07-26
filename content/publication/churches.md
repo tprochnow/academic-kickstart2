@@ -1,6 +1,6 @@
 +++
 title = "Churches as physical activity resources: A descriptive assessment."
-date = 2019-08-01
+date = 2019-07-01
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
