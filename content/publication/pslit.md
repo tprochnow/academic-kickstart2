@@ -22,29 +22,7 @@ publication = "*Journal of Public Health Management & Practice*"
 publication_short = "In *Journal of Public Health Management & Practice*"
 
 # Abstract and optional shortened version.
- abstract = "CONTEXT:
-Outdoor play has been described as essential for healthy childhood development. Lack of safety is one barrier to children participating in outdoor play. Play Streets are an intervention to help increase outdoor play by temporarily closing public streets (closures are recurring or episodic) to traffic, creating a safe place for active play.
-
-OBJECTIVE:
-This systematic grey literature review aimed to examine and describe what is known about implementing Play Streets using the RE-AIM (Reach, Effectiveness, Adoption, Implementation, and Maintenance) framework, which is widely used in implementation research.
-
-DESIGN:
-A systematic search for and review of nonacademic, or grey, literature was conducted using Academic Search Complete, Google Scholar, and a general Google search.
-
-ELIGIBILITY CRITERIA:
-Included literature was published in English, through December 2017, in nonacademic sources (ie, organizational/grant/municipal reports, newspapers, conference presentations, previous intervention advertisement materials, Web-based articles) or found in reference lists of academic articles about Play Streets, Pop-up Parks, or Open Streets/Ciclovías with a Play Street component.
-
-STUDY SELECTION:
-Resources were selected that documented Play Streets, which are defined as recurring or episodic temporary street closures to traffic that provide the public with a no-cost, safe space to actively play and be physically active. These approaches are designed primarily for youth and may include various marked play areas, loose equipment, and/or group activities.
-
-MAIN OUTCOME MEASURES:
-RE-AIM measures guided data extraction.
-
-RESULTS:
-Of the 36 articles composing the final sample, 100% reported on implementation, although the level of detail varied. Only 14 of 36 articles reported measures of effectiveness; limited information was provided for other RE-AIM components.
-
-CONCLUSIONS:
-In the grey literature, there are several inconsistencies in how the implementation of Play Streets is reported and level of detail. Specific details regarding implementing and evaluating Play Streets are needed to support widespread replication."
+ abstract = "CONTEXT: Outdoor play has been described as essential for healthy childhood development. Lack of safety is one barrier to children participating in outdoor play. Play Streets are an intervention to help increase outdoor play by temporarily closing public streets (closures are recurring or episodic) to traffic, creating a safe place for active play. OBJECTIVE: This systematic grey literature review aimed to examine and describe what is known about implementing Play Streets using the RE-AIM (Reach, Effectiveness, Adoption, Implementation, and Maintenance) framework, which is widely used in implementation research. DESIGN: A systematic search for and review of nonacademic, or grey, literature was conducted using Academic Search Complete, Google Scholar, and a general Google search. ELIGIBILITY CRITERIA: Included literature was published in English, through December 2017, in nonacademic sources (ie, organizational/grant/municipal reports, newspapers, conference presentations, previous intervention advertisement materials, Web-based articles) or found in reference lists of academic articles about Play Streets, Pop-up Parks, or Open Streets/Ciclovías with a Play Street component. STUDY SELECTION: Resources were selected that documented Play Streets, which are defined as recurring or episodic temporary street closures to traffic that provide the public with a no-cost, safe space to actively play and be physically active. These approaches are designed primarily for youth and may include various marked play areas, loose equipment, and/or group activities. MAIN OUTCOME MEASURES: RE-AIM measures guided data extraction. RESULTS: Of the 36 articles composing the final sample, 100% reported on implementation, although the level of detail varied. Only 14 of 36 articles reported measures of effectiveness; limited information was provided for other RE-AIM components. CONCLUSIONS:In the grey literature, there are several inconsistencies in how the implementation of Play Streets is reported and level of detail. Specific details regarding implementing and evaluating Play Streets are needed to support widespread replication."
 
 # Featured image thumbnail (optional)
 # image_preview = ""
