@@ -23,7 +23,7 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
- image = "SPUSF.png"
+# image = "SPUSF.png"
 # caption = "My caption :smile:"
 
 +++
