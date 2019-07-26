@@ -9,10 +9,10 @@ image_preview = ""
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-# tags = ["MyMovez"]
+ tags = ["Youth PA"]
 
 # Optional external URL for project (replaces project detail page).
-# external_link = "http://mymovez.eu/"
+# external_link = ""
 
 # Does the project detail page use math formatting?
 math = false
