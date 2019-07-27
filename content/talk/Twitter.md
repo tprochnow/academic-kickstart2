@@ -1,28 +1,24 @@
 +++
 title = "I Play, You Play, We Play: Concurrent Play At Play Streets"
-date = 2019-09-12
+date = 2019-07-12
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Prochnow, T","Umstattd Meyer, MR", "Pollack Porter, KM"]
 
-# Publication type.
-# Legend:
-# 0 = Uncategorized
-# 1 = Conference paper
-# 2 = Journal article
-# 3 = Manuscript
-# 4 = Report
-# 5 = Book
-# 6 = Book section
-publication_types = ["1"]
-
-# Publication name and optional abbreviated version.
-publication = "American Public Health Association Physical Activity Twitter Conference"
-publication_short = "As a Twitter Presentation"
+time_start = 2019-09-12T12:50:00
+#time_end = 2019-06-01
 
 # Abstract and optional shortened version.
- abstract = ""
+# abstract = ""
+# abstract_short = ""
+
+# Name of event and optional event URL.
+event = "American Public Health Association Physical Activity Twitter Conference 2019"
+event_url = ""
+
+# Location of event.
+# location = "Oranjestad, Aruba"
 
 # Featured image thumbnail (optional)
 # image_preview = ""
