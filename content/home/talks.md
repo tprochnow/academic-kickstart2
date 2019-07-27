@@ -14,7 +14,7 @@ subtitle = ""
   # Page type to display. E.g. post, talk, or publication.
    page_type="talk"
   # Choose how much pages you would like to display (0 = all pages)
-  count = 10
+  count = 0
   
   # Choose how many pages you would like to offset by
   offset = 0
@@ -24,7 +24,7 @@ subtitle = ""
 
   # Filter posts by a taxonomy term.
   [content.filters]
-    tag = "[SNA],[Youth PA]"
+    tag = ""
     category = ""
     publication_type = ""
     exclude_featured = false
