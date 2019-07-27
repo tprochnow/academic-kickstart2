@@ -1,59 +1,71 @@
-title: "I Play, You Play, We Play: Concurrent Play at Play Streets"
-event: American Public Health Association Physical Activity Twitter Conference.
-event_url:
-location:
-summary:
-abstract:
++++
+title = "I Play, You Play, We Play: Concurrent Play At Play Streets"
+date = 2019-09-12
+draft = false
 
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
-date: {{ 09/12/2019 }}
-date_end: {{ .Date }}
-all_day: false
+# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
+authors = ["Prochnow, T","Umstattd Meyer, MR", "Pollack Porter, KM"]
 
-# Schedule page publish date (NOT talk date).
-publishDate: {{ .Date }}
+# Publication type.
+# Legend:
+# 0 = Uncategorized
+# 1 = Conference paper
+# 2 = Journal article
+# 3 = Manuscript
+# 4 = Report
+# 5 = Book
+# 6 = Book section
+publication_types = ["1"]
 
-authors: ["Prochnow,T", "Umstattd Meyer, MR", "Pollack Porter, KM"]
-tags: ["Youth PA"]
+# Publication name and optional abbreviated version.
+publication = "American Public Health Association Physical Activity Twitter Conference"
+publication_short = "As a Twitter Presentation"
 
-# Is this a featured talk? (true/false)
-featured: false
+# Abstract and optional shortened version.
+ abstract = ""
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
+# Featured image thumbnail (optional)
+# image_preview = ""
 
-# Custom links (optional).
-#   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
-
-# Optional filename of your slides within your talk's folder or a URL.
-url_slides:
-
-url_code:
-url_pdf:
-url_video:
-
-# Markdown Slides (optional).
-#   Associate this talk with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: ""
+# Is this a selected publication? (true/false)
+featured = false
 
 # Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's filename without extension.
+#   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
 #   Otherwise, set `projects = []`.
-projects: ["CPS"]
----
+projects = ["CPS"]
+
+# Tags (optional).
+#   Set `tags = ["Advertising", "Location Based", "Virtual Reality"]` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
+ tags = ["Youth PA"]
+
+# Links (optional).
+# url_pdf = "https://insights.ovid.com/crossref?an=00124784-900000000-99371"
+# url_preprint = "#"
+# url_code = "#"
+# url_dataset = "#"
+# url_project = "#"
+# url_slides = "#"
+# url_video = "#"
+# url_poster = "#"
+# url_source = "#"
+
+# Custom links (optional).
+#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
+# url_custom = [{name = "Read here", url = "https://insights.ovid.com/crossref?an=00124784-900000000-99371"}]
+
+# Does this page contain LaTeX math? (true/false)
+math = true
+
+# Does this page require source code highlighting? (true/false)
+highlight = true
+
+# Featured image
+# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
+[header]
+image = ""
+caption = ""
+
++++
