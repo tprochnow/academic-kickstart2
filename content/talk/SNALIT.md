@@ -1,28 +1,24 @@
 +++
 title = "Social Network Analysis in Child Physical Activity and Sedentary Behavior Research: A systematic literature review"
-date = 2019-06-07
+date = 2019-06-07T15:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Prochnow, T", "Delgado, H", "Patterson, MS", "Umstattd Meyer, MR"]
 
-# Publication type.
-# Legend:
-# 0 = Uncategorized
-# 1 = Conference paper
-# 2 = Journal article
-# 3 = Manuscript
-# 4 = Report
-# 5 = Book
-# 6 = Book section
-publication_types = ["1"]
-
-# Publication name and optional abbreviated version.
-publication = "International Society of Behavioral Nutrition and Physical Activity"
-publication_short = "As an Oral Presentation"
+time_start = 2019-09-12T12:50:00
+#time_end = 2019-06-01
 
 # Abstract and optional shortened version.
- abstract = ""
+# abstract = ""
+# abstract_short = ""
+
+# Name of event and optional event URL.
+event = "International Society of Behavioral Nutrition and Physical Activity Conference 2019"
+event_url = ""
+
+# Location of event.
+ location = "Prague, Czech Republic"
 
 # Featured image thumbnail (optional)
 # image_preview = ""
