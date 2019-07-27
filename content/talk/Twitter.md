@@ -1,4 +1,4 @@
-title: "{{ I Play, You Play, We Play: Concurrent Play at Play Streets }}"
+title: "I Play, You Play, We Play: Concurrent Play at Play Streets"
 event: American Public Health Association Physical Activity Twitter Conference.
 event_url:
 location:
@@ -7,7 +7,7 @@ abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: {{ 09-12-2019 }}
+date: {{ 09/12/2019 }}
 date_end: {{ .Date }}
 all_day: false
 
