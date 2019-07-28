@@ -1,6 +1,6 @@
 +++
 title = "Modeling Feelings of Body Dissatisfaction within a Sorority Using Two Different Relationships"
-date = 2019-03-010
+date = 2019-03-10
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
