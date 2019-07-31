@@ -38,7 +38,7 @@ projects = []
  tags = []
 
 # Links (optional).
-# url_pdf = "https://insights.ovid.com/crossref?an=00124784-900000000-99371"
+# url_pdf = ""
 # url_preprint = "#"
 # url_code = "#"
 # url_dataset = "#"
@@ -61,7 +61,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = ""
-caption = ""
+# image = ""
+# caption = ""
 
 +++
