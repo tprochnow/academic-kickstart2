@@ -3,7 +3,7 @@
 date = 2019-07-26
 
 # Project title.
-title = "Health For You and Your Family"
+title = "Health for You and Your Family"
 
 # Project summary to display on homepage.
 summary = "Healthy eating, active living, and family dynamics intervention on the Texas-Mexico border"
