@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "2045611647",
     "id" : "9678F02C",
-    "lastKnownWriteTime" : 1564602514,
-    "last_content_update" : 1564602514310,
+    "lastKnownWriteTime" : 1564604636,
+    "last_content_update" : 1564604636709,
     "path" : "~/GitHub/academic-kickstart2/content/home/projects.md",
     "project_path" : "content/home/projects.md",
     "properties" : {
-        "cursorPosition" : "16,8",
-        "scrollLine" : "16"
+        "cursorPosition" : "2,19",
+        "scrollLine" : "0"
     },
     "relative_order" : 2,
     "source_on_save" : false,

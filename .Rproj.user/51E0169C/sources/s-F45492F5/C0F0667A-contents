@@ -1,10 +1,10 @@
 +++
-title = "The impact of centrality on body dissatisfaction within a sorority using two network generators"
-date = 2018-11-28
+title = "Modeling Feelings of Body Dissatisfaction within a Sorority Using Two Different Relationships"
+date = 2019-03-10
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Prochnow, T", "Patterson MS"]
+authors = ["Prochnow, T", "Patterson, MS", "Umstattd Meyer, MR"]
 
 # time_start = 2019-09-12T12:50:00
 # time_end = 2019-06-01
@@ -14,11 +14,11 @@ authors = ["Prochnow, T", "Patterson MS"]
 # abstract_short = ""
 
 # Name of event and optional event URL.
-event = "North American Social Network Conference 2018"
+event = "American Academy of Health Behavior 2019"
 event_url = ""
 
 # Location of event.
- location = "Washington D.C."
+ location = "Greenville, South Carolina"
 
 # Featured image thumbnail (optional)
 # image_preview = ""
@@ -31,7 +31,7 @@ featured = false
 #   Simply enter your project's filename without extension.
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
 #   Otherwise, set `projects = []`.
-projects = [""]
+projects = []
 
 # Tags (optional).
 #   Set `tags = ["Advertising", "Location Based", "Virtual Reality"]` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
