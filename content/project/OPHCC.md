@@ -23,7 +23,7 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-# image = "SPUSF.png"
+ image = "OPHCC1.jpg"
 # caption = "My caption :smile:"
 
  url_pdf = "files/OPHCC.pdf"
