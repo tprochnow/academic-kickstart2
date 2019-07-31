@@ -6,7 +6,7 @@ date = 2019-07-26
 title = "Health for You and Your Family"
 
 # Project summary to display on homepage.
-summary = "Healthy eating, active living, and family dynamics intervention on the Texas-Mexico border"
+ summary = "Healthy eating, active living, and family dynamics intervention on the Texas-Mexico border"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "SPUSF.jpg"
@@ -23,7 +23,7 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
- image = "SPUSF.jpg"
+# image = "SPUSF.jpg"
 # caption = "My caption :smile:"
 
 +++
