@@ -27,3 +27,16 @@ math = false
 # caption = "My caption :smile:"
 
 +++
+"Salud para Usted y su Familia", Health for You and Your Family, is a USDA funded project to create and implement a culturally tailored health intervention on the boarder of Texas and Mexico. This project is a collaboration of Texas A&M, Baylor University, and Texas State. Much formative work was done in order to assess needs of the community as well as develop a raport through a promotora-research paradigm. 
+
+Responsibilities:
+
+- Intervention curriculum development
+
+- Promotora training
+
+- Manuscript Preparation
+
+- Data Analysis
+
+- Evaluation Development
