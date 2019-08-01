@@ -48,7 +48,7 @@ projects = ["OPHCC"]
 # url_project = "#"
 # url_slides = "#"
 # url_video = "#"
- url_poster = "ALCOPHCC.pdf"
+ url_poster = "files/ALCOPHCC.pdf"
 # url_source = "#"
 
 # Custom links (optional).
