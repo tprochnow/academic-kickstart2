@@ -1,27 +1,27 @@
 +++
-title = "I Play, You Play, We Play: Concurrent Play At Play Streets"
-date = 2019-09-12T12:50:00
+title = "The impact of centrality on body dissatisfaction within a sorority using two network generators"
+date = 2018-11-28
 draft = false
 all_day = true
 
 publishDate = 2019-02-17
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Prochnow, T","Umstattd Meyer, MR", "Pollack Porter, KM"]
+authors = ["Prochnow, T", "Patterson MS"]
 
-time_start = 2019-09-12T12:50:00
-#time_end = 2019-06-01
+# time_start = 2019-09-12T12:50:00
+# time_end = 2019-06-01
 
 # Abstract and optional shortened version.
 # abstract = ""
 # abstract_short = ""
 
 # Name of event and optional event URL.
-event = "American Public Health Association Physical Activity Twitter Conference 2019"
+event = "North American Social Network Conference 2018"
 event_url = ""
 
 # Location of event.
-# location = "Oranjestad, Aruba"
+ location = "Washington D.C."
 
 # Featured image thumbnail (optional)
 # image_preview = ""
@@ -34,14 +34,14 @@ featured = false
 #   Simply enter your project's filename without extension.
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
 #   Otherwise, set `projects = []`.
-projects = ["CPS"]
+projects = [""]
 
 # Tags (optional).
 #   Set `tags = ["Advertising", "Location Based", "Virtual Reality"]` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
- tags = ["Youth PA"]
+ tags = ["SNA"]
 
 # Links (optional).
-# url_pdf = ""
+# url_pdf = "https://insights.ovid.com/crossref?an=00124784-900000000-99371"
 # url_preprint = "#"
 # url_code = "#"
 # url_dataset = "#"

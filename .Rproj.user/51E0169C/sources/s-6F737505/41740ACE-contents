@@ -1,27 +1,27 @@
 +++
-title = "I Play, You Play, We Play: Concurrent Play At Play Streets"
-date = 2019-09-12T12:50:00
+title = "Are fitness instructors feeling the burn(out)? An investigation of feelings of burnout and coping strategies among fitness instructors."
+date = 2019-03-10
 draft = false
 all_day = true
 
 publishDate = 2019-02-17
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Prochnow, T","Umstattd Meyer, MR", "Pollack Porter, KM"]
+authors = ["Prochnow, T", "Oglesby, L", "Umstattd Meyer, MR"]
 
-time_start = 2019-09-12T12:50:00
-#time_end = 2019-06-01
+# time_start = 2019-09-12T12:50:00
+# time_end = 2019-06-01
 
 # Abstract and optional shortened version.
 # abstract = ""
 # abstract_short = ""
 
 # Name of event and optional event URL.
-event = "American Public Health Association Physical Activity Twitter Conference 2019"
+event = "American Academy of Health Behavior 2019"
 event_url = ""
 
 # Location of event.
-# location = "Oranjestad, Aruba"
+ location = "Greenville, South Carolina"
 
 # Featured image thumbnail (optional)
 # image_preview = ""
@@ -34,11 +34,11 @@ featured = false
 #   Simply enter your project's filename without extension.
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
 #   Otherwise, set `projects = []`.
-projects = ["CPS"]
+projects = []
 
 # Tags (optional).
 #   Set `tags = ["Advertising", "Location Based", "Virtual Reality"]` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
- tags = ["Youth PA"]
+ tags = []
 
 # Links (optional).
 # url_pdf = ""
@@ -64,7 +64,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = ""
-caption = ""
+# image = ""
+# caption = ""
 
 +++
