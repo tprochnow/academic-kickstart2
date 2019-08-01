@@ -13,7 +13,7 @@ authors = ["Prochnow, T", "Patterson, MS", "Umstattd Meyer, MR"]
 # time_end = 2019-06-01
 
 # Abstract and optional shortened version.
-# abstract = ""
+ abstract = "Purpose: Body dissatisfaction (BD), or negative self-perceptions/attitudes toward one’s own physical appearance, is commonly linked to negative health outcomes (i.e., stress, disordered eating behaviors, depression), among college women. Sorority women are especially prone to BD and associated health consequences. Social network analysis (SNA) is a theoretical framework and methodology that examines how individuals connect, interact, and influence each other, and what these connections mean for selected outcomes. Because college students are particularly impacted by their social networks, the purpose of this study was to use SNA to examine if network, behavior, and health-related characteristics were related with BD scores among members of a sorority.  Methods: Sorority members completed surveys during a regularly scheduled chapter meeting (n=208, 87% White, 39.1% freshmen). Participants were asked to nominate up to 5 members they felt closest to within their sorority. SNA assessed relationships between BD and BMI, compulsive exercise, grade classification, and network characteristics (e.g. degree centrality or the amount of connections on person has). Descriptive statistics were conducted using SPSS, and quadratic assignment procedure (QAP) analyses were conducted using UCINET. Results: QAP regression analysis revealed a significant model (R2=.404, p<.0001) relating feelings of BD. In the QAP regression model, sorority members with greater compulsive exercise (β=.479, p<.001), higher BMI (β=.268, p<.001), lower grade classification (β=-.101, p=.029), and fewer connections within their sorority (degree centrality; β=-.156, p=.006) were significantly more likely to have greater feelings of BD. Conclusions: Higher degree, or having more close connections within the sorority, may serve as a buffer for BD as more connections may mean a larger social support network. Additionally, members with greater BD could isolate themselves from their peers more, resulting in fewer connections. Researchers or practitioners looking to improve BD among sorority members may want to focus on creating lasting connections for underclassmen within sorority networks."
 # abstract_short = ""
 
 # Name of event and optional event URL.
@@ -48,7 +48,7 @@ projects = []
 # url_project = "#"
 # url_slides = "#"
 # url_video = "#"
-# url_poster = "#"
+# url_poster = "files/BDAAHB.pdf"
 # url_source = "#"
 
 # Custom links (optional).

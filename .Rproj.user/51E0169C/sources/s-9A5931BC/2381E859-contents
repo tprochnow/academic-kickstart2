@@ -13,7 +13,7 @@ authors = ["Prochnow, T", "Yliatlo, K", "Sharkey, J", "Umstattd Meyer, MR"]
 # time_end = 2019-06-01
 
 # Abstract and optional shortened version.
-# abstract = ""
+ abstract = "BACKGROUND and PURPOSE Physical activity (PA) is linked to many health benefits1. Personal, social, and environmental factors can be barriers to PA and negatively correlated with meeting PA recommendations 2. Sibling interactions affect children’s social, cognitive, and psychosocial development3. Sibling relationship quality is a significant predictor of delinquency, depression, and other social, cognitive, and psychosocial aspects 4. While evidence suggests that siblings have similar levels of PA 5 and sedentary behavior 6, the similarities between sibling’s perceived barriers have not been examined.OBJECTIVES Barriers to PA among sibling dyads over two time periods (summer and school year) are evaluated in this study, with the purpose of informing teachers, practitioners, and researchers who develop and implement family-based PA interventions. METHODS Mexican-heritage families residing in colonias on the Texas-Mexico border were recruited from south Texas. Eighty-seven sibling dyads with mean age 11.2 (51.7% girls) and 8.3 years (49.4% girls) participated. A 21-question PA barrier survey was interviewer-administered by promotora-researchers during the summer and school-year. Frequencies of response categories for each barrier were calculated for older and younger siblings, and both time periods. Concordance among sibling PA barriers was assessed using percent agreement and Cohen’s kappa statistic (κ). Barriers were grouped into five subscales. Mean sub-scale scores were calculated; non-parametric Wilcoxon signed-rank tests were used to compare scores.RESULTS Weather, homework, and being self-conscious were reported most frequently. Siblings had the highest percent agreement in summer (74.7%) and school year (78.2%) when asked if being too overweight kept them from being active. Siblings had the lowest percent agreement in the school-year (18.6%) when asked whether having homework kept them from being active. Barriers that had the lowest percent agreement between siblings tended to be reported more frequently. Convenience sub-scale scores were highest for both older and younger siblings during both time periods, indicating that homework, time, and weather barriers were reported as occurring more frequently. Younger siblings had significantly higher convenience barrier sub-scale scores in school-year than in summer (p<0.01). Body-related barriers to PA (e.g., self-consciousness) were higher for older siblings than for younger siblings during the school-year (p<0.01). Within younger siblings, body-related barriers were higher during summer than school-year (p=0.02).CONCLUSIONS While encouraging PA in schools or within families, it is prudent to take into account the potential barriers that might be felt by the students or participants and the role siblings may play in how these barriers are perceived. "
 # abstract_short = ""
 
 # Name of event and optional event URL.
@@ -48,7 +48,7 @@ projects = ["SPUSF"]
 # url_project = "#"
 # url_slides = "#"
 # url_video = "#"
-# url_poster = "#"
+ url_poster = "files/ALCsib.pdf"
 # url_source = "#"
 
 # Custom links (optional).

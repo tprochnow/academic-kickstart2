@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2206892512",
+    "hash" : "277205473",
     "id" : "1C00C504",
-    "lastKnownWriteTime" : 1564679805,
-    "last_content_update" : 1564679805793,
+    "lastKnownWriteTime" : 1564681965,
+    "last_content_update" : 1564681965182,
     "path" : "~/GitHub/academic-kickstart2/content/talk/ALCsoparc1.md",
     "project_path" : "content/talk/ALCsoparc1.md",
     "properties" : {
-        "cursorPosition" : "6,24",
-        "scrollLine" : "0"
+        "cursorPosition" : "49,17",
+        "scrollLine" : "28"
     },
     "relative_order" : 4,
     "source_on_save" : false,

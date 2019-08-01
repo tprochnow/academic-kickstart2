@@ -13,7 +13,7 @@ authors = ["Prochnow, T", "Umstattd Meyer, MR", "Bridges, CN", "McClendon, ME", 
 # time_end = 2019-06-01
 
 # Abstract and optional shortened version.
-# abstract = ""
+ abstract = "Background and Purpose - Understanding how community physical activity (PA) spaces are used is critical for promoting PA. System for Observing Play and Recreation in Communities (SOPARC)1 is a systematic observation tool that records information on PA areas and people that use them utilizing momentary sampling. SOPARC has been used to assess permanent spaces (parks); documentation on SOPARC use for temporary spaces, like Play Streets (PS), is lacking. PS involve temporary closure of streets for a specified time period (around 3-4 hours) that create a safe space for play. PS dynamic nature raises questions about how to best conduct SOPARC assessments. Objectives - Examine two methods of conducting SOPARC at PS. Methods - Research staff were trained in SOPARC/iSOPARC methodology2 and conducted iSOPARC observations using two methods at 6 PS occurring in 4 diverse low-income rural communities across the U.S. A primary researcher completed six iSOPARC observations during the 3-hour time period for each PS. An observation consisted of systematically scanning a target area (TA) and noting individuals’ PA level and demographic information, within the TA. An alternative method, triad scan (TS), was also conducted starting when the primary observer would begin the 3rd set of observations. A given TA was scanned 3 consecutive times (10 seconds between each scan) before moving to next TA. Scans for each TA were then averaged and compared to the 3rd observation and to averages of the original method. Paired t-tests were used to determine significant differences in total observations and observations in each activity level between primary and TS. Results - There was no significant difference in TS averages and 3rd observation primary frequencies for overall activity (p= 0.42) and for sedentary (p=0.47), moderate (p=0.35), and vigorous activity levels (p= 0.33). There was no significant difference in TS averages and total primary averages for overall activity (p= 0.12) and for sedentary (p=0.15), but there were significant differences for moderate (p=0.04), and vigorous activity levels (p=0.048). Conclusions - Using TS method did not significantly impact frequencies of observations when compared to a single primary observation. While a TS method may reduce amount of time spent on assessment, it may miss vital variation in PA at PS events when compared to overall averages. Implications for Practice and Policy - Play Streets are dynamic play environments that require unique assessment. This presentation adds to information regarding conducting systematic observations for temporary activity spaces."
 # abstract_short = ""
 
 # Name of event and optional event URL.
@@ -48,7 +48,7 @@ projects = ["RPS"]
 # url_project = "#"
 # url_slides = "#"
 # url_video = "#"
-# url_poster = "#"
+ url_poster = "files/ALCSOPARC2.pdf"
 # url_source = "#"
 
 # Custom links (optional).
