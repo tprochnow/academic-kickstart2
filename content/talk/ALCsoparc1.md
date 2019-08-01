@@ -2,6 +2,9 @@
 title = "SOPARC Results for Rural Play Streets"
 date = 2019-02-17
 draft = false
+all_day = true
+
+publishDate = 2019-02-17
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Prochnow, T", "Umstattd Meyer, MR", "Bridges, CN", "McClendon, ME", "Arnold, KT", "Wilkins, E", "Williams, TD", "Carlton, T" , "Pollack Porter, KM"]

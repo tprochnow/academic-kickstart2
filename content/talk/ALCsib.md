@@ -2,6 +2,9 @@
 title = "Perceived barriers of being physically active during the summer and school-year: How do siblings compare in Mexican-heritage families?"
 date = 2019-02-17
 draft = false
+all_day = true
+
+publishDate = 2019-02-17
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Prochnow, T", "Yliatlo, K", "Sharkey, J", "Umstattd Meyer, MR"]

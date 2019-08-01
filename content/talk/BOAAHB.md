@@ -2,6 +2,9 @@
 title = "Are fitness instructors feeling the burn(out)? An investigation of feelings of burnout and coping strategies among fitness instructors."
 date = 2019-03-10
 draft = false
+all_day = true
+
+publishDate = 2019-02-17
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Prochnow, T", "Oglesby, L", "Umstattd Meyer, MR"]
