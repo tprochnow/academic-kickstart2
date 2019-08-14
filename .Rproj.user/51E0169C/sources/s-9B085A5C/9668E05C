@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "924518484",
     "id" : "9668E05C",
-    "lastKnownWriteTime" : 1564973034,
-    "last_content_update" : 1564973034369,
+    "lastKnownWriteTime" : 1565815680,
+    "last_content_update" : 1565815680579,
     "path" : "~/GitHub/academic-kickstart2/config/_default/menus.toml",
     "project_path" : "config/_default/menus.toml",
     "properties" : {
-        "cursorPosition" : "12,9",
+        "cursorPosition" : "12,2",
         "scrollLine" : "0"
     },
     "relative_order" : 3,
