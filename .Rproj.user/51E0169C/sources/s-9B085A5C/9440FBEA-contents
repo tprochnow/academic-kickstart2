@@ -8,10 +8,10 @@ draft: false
 menu:
   introSNA:
     parent: Example Topic
-    weight: 1
+    weight: 2
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 1
+weight: 2
 ---
 
 In this tutorial, I'll share my top 10 tips for getting started with Academic:
