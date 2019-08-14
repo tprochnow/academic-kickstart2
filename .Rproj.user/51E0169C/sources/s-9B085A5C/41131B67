@@ -5,17 +5,17 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1271874737",
+    "hash" : "0",
     "id" : "41131B67",
-    "lastKnownWriteTime" : 1565815894,
-    "last_content_update" : 1565815894038,
+    "lastKnownWriteTime" : 1565816534,
+    "last_content_update" : 1565816534198,
     "path" : "~/GitHub/academic-kickstart2/content/courses/introSNA/_index.md",
     "project_path" : "content/courses/introSNA/_index.md",
     "properties" : {
-        "cursorPosition" : "18,12",
-        "scrollLine" : "4"
+        "cursorPosition" : "10,30",
+        "scrollLine" : "0"
     },
-    "relative_order" : 6,
+    "relative_order" : 2,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "markdown"
