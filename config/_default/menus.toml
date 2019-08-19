@@ -36,6 +36,6 @@
     weight = 70
 
 [[menu.courses]]
-  name = "Overview"
+  name = "Intro"
   weight = 5
   url = "/courses/"
