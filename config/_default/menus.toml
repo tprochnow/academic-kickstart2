@@ -8,10 +8,10 @@
   url = "#about"
   weight = 10
 
-#[[main]]
-#  name = "Workshops"
-#  url = "courses/"
-#  weight = 30
+[[main]]
+  name = "Workshops"
+  url = "courses/"
+  weight = 30
 
 [[main]]
   name = "Projects"
@@ -34,4 +34,8 @@
     name = "CV"
     url = "files/cv.pdf"
     weight = 70
-    
+
+[[menu.courses]]
+  name = "Overview"
+  weight = 5
+  url = "/courses/"
