@@ -34,8 +34,3 @@
     name = "CV"
     url = "files/cv.pdf"
     weight = 70
-
-[[menu.courses]]
-  name = "Intro"
-  weight = 5
-  url = "/courses/"
