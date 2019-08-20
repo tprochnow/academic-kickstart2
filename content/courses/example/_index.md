@@ -1,7 +1,7 @@
 ---
 # Course title, summary, and position.
-linktitle: An Example Course
-summary: Learn how to use Academic's docs layout for publishing online courses, software documentation, and tutorials.
+linktitle: Introduction to Social Network Analysis
+summary: Overview of the theory and methods behind SNA.
 weight: 1
 
 # Page metadata.
