@@ -1,4 +1,4 @@
----
++++
 title = "Percieved physical activity barriers of Mexican-heritage sibling dyads"
 date = 2019-07-01
 draft = false
@@ -66,8 +66,6 @@ highlight = true
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image: 'featured.jpg'
-  caption: ""
-  focal_point: ""
   preview_only: false
 
----
++++
