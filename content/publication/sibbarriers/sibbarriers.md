@@ -63,7 +63,7 @@ math = true
 highlight = true
 
 image:
-  caption: ''
+  caption: ""
   focal_point: ""
   preview_only: false
 
