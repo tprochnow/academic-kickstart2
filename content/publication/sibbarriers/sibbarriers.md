@@ -62,6 +62,8 @@ math = true
 # Does this page require source code highlighting? (true/false)
 highlight = true
 
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
 image:
   caption: ""
   focal_point: ""
