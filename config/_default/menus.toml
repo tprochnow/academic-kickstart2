@@ -10,8 +10,8 @@
 
 [[main]]
   name = "Workshops"
-  url = "courses/"
-  weight = 30
+  url = "#workshops"
+  weight = 50
 
 [[main]]
   name = "Projects"
@@ -22,6 +22,11 @@
   name = "Publications"
   url = "#featured"
   weight = 40
+  
+  [[main]]
+  name = "Presentations"
+  url = "#talks"
+  weight = 45
 
 [[main]]
   name = "Contact"
