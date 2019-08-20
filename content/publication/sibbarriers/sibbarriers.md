@@ -62,10 +62,9 @@ math = true
 # Does this page require source code highlighting? (true/false)
 highlight = true
 
-# Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
-# image = "sibling.jpg"
-# caption = ""
+image:
+  caption: ''
+  focal_point: ""
+  preview_only: false
 
 +++
