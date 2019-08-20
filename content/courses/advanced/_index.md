@@ -1,11 +1,11 @@
 ---
 # Course title, summary, and position.
-linktitle: Introduction to Social Network Analysis
-summary: Overview of the theory and methods behind SNA.
+linktitle: Advanced Social Network Analysis
+summary: Data driven workshop on analysis techniques.
 weight: 1
 
 # Page metadata.
-title: Intro
+title: Introduction
 date: "2018-09-09T00:00:00Z"
 lastmod: "2018-09-09T00:00:00Z"
 draft: false  # Is this a draft? true/false
@@ -16,8 +16,8 @@ type: docs  # Do not modify.
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
 menu:
-  example:
-    name: Intro
+  advanced:
+    name: Introduction
     weight: 1
 ---
 
