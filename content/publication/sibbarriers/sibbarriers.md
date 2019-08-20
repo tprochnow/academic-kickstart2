@@ -1,4 +1,4 @@
-+++
+---
 title = "Percieved physical activity barriers of Mexican-heritage sibling dyads"
 date = 2019-07-01
 draft = false
@@ -70,4 +70,4 @@ image: 'featured.jpg'
   focal_point: ""
   preview_only: false
 
-+++
+---
