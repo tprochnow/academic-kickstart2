@@ -1,6 +1,6 @@
 +++
 # A Projects section created with the Portfolio widget.
-widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 100  # Order that this section will appear.
@@ -9,17 +9,6 @@ title = "Workshops"
 subtitle = ""
 
 [content]
-  # Page type to display. E.g. project.
-   page_type = "post"
-  
-  # Choose how much pages you would like to display (0 = all pages)
-  count = 5
-  
-  # Choose how many pages you would like to offset by
-  offset = 0
-
-  # Page order. Descending (desc) or ascending (asc) date.
-  order = "desc"
 
   folder="workshops"
   
