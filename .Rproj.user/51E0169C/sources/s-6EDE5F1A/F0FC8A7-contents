@@ -36,8 +36,6 @@ title = "Workshops"
 # Note. An optional note to show underneath the links.
 +++
 
-<div style="text-align: right">
-
 [Introduction to Social Network Analysis](https://www.tprochnow.com/courses/intro/)
 
 [Advanced Social Network Analysis](https://www.tprochnow.com/courses/advanced/)
