@@ -37,8 +37,11 @@ This workshop serves as an introduction to the theory and methods used in SNA. W
 ## Learning Objectives
 
 After this workshop, participants will be able to…
+
 *	Recognize and understand social network terms and theoretical premise when used in research.
+
 *	Explain how social network analysis can be used to answer research questions. 
+
 *	Determine if social network analysis theory or methods can be used in projects they are/will be working on.
 
 ## Interactive Features
