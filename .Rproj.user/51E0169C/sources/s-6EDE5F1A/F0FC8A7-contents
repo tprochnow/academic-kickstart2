@@ -33,19 +33,11 @@ title = "Workshops"
 # Call to action links (optional).
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
-[cta]
-  url = "https://www.tprochnow.com/courses/intro/"
-  label = "Introduction to Social Network Analysis"
-  icon_pack = "fas"
-  icon = "connectdevelop"
-  
-[cta]
-  url = "https://www.tprochnow.com/courses/advanced/"
-  label = "Advanced Social Network Analysis"
-  icon_pack = "fas"
-  icon = "connectdevelop"
-
 # Note. An optional note to show underneath the links.
 +++
 
 **Click the links below for more information about my SNA workshops.**
+
+[Introduction to Social Network Analysis](https://www.tprochnow.com/courses/intro/)
+
+[Advanced Social Network Analysis](https://www.tprochnow.com/courses/advanced/)

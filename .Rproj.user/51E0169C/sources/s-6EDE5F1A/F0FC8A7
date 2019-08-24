@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1948904406",
+    "hash" : "2682414199",
     "id" : "F0FC8A7",
-    "lastKnownWriteTime" : 1566677208,
-    "last_content_update" : 1566677208790,
+    "lastKnownWriteTime" : 1566677581,
+    "last_content_update" : 1566677581471,
     "path" : "~/GitHub/academic-kickstart2/content/home/hero.md",
     "project_path" : "content/home/hero.md",
     "properties" : {
-        "cursorPosition" : "51,0",
-        "scrollLine" : "32"
+        "cursorPosition" : "42,77",
+        "scrollLine" : "23"
     },
     "relative_order" : 7,
     "source_on_save" : false,
