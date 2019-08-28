@@ -1,6 +1,6 @@
 +++
 title = "Assessing physical activity in temporary spaces: Application of SOPARC / iSOPARC® for Play Streets"
-date = 2019-08-01
+date = 2019-09-01
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.

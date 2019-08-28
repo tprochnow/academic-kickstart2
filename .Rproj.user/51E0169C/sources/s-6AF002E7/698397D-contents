@@ -42,7 +42,7 @@ projects = ["rps"]
  tags = ["Youth PA"]
 
 # Links (optional).
-# url_pdf = "https://insights.ovid.com/crossref?an=00124784-900000000-99371"
+ url_pdf = "https://insights.ovid.com/crossref?an=00124784-900000000-99371"
 # url_preprint = "#"
 # url_code = "#"
 # url_dataset = "#"
@@ -54,7 +54,7 @@ projects = ["rps"]
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-# url_custom = [{name = "Read here", url = "https://insights.ovid.com/crossref?an=00124784-900000000-99371"}]
+ url_custom = [{name = "Read here", url = "https://insights.ovid.com/crossref?an=00124784-900000000-99371"}]
 
 # Does this page contain LaTeX math? (true/false)
 math = true

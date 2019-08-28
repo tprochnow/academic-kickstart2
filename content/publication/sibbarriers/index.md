@@ -43,7 +43,7 @@ projects = ["SPUSF"]
 
 # Links (optional).
  url_pdf = "https://www.ingentaconnect.com/content/png/ajhb/2019/00000043/00000004/art00011"
-# url_preprint = "https://www.ingentaconnect.com/content/png/ajhb/2019/00000043/00000004/art00011"
+# url_preprint = "#"
 # url_code = "#"
 # url_dataset = "#"
 # url_project = "#"
@@ -54,7 +54,7 @@ projects = ["SPUSF"]
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-# url_custom = [{name = "Read here", url = "https://www.ingentaconnect.com/content/png/ajhb/2019/00000043/00000004/art00011"}]
+ url_custom = [{name = "Read here", url = "https://www.ingentaconnect.com/content/png/ajhb/2019/00000043/00000004/art00011"}]
 
 # Does this page contain LaTeX math? (true/false)
 math = true
