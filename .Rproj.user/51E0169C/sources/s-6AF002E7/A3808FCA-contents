@@ -1,28 +1,17 @@
 ---
-title: Workshop Schedule
-linktitle: Schedule
+title: Housekeeping
+linktitle: Housekeeping
 toc: true
 type: docs
 date: "2019-05-05T00:00:00+01:00"
 draft: false
 menu:
   intro:
-    parent: Workshop Schedule
+    parent: Workshop 
     weight: 1
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 1
 ---
 
-##Tentative Schedule and Overview
 
-| **Activity**             | **Description**                                                                                    |
-|--------------------------|----------------------------------------------------------------------------------------------------|
-| Housekeeping             | Instructor introduction learn about participants goals.                                            |
-| SNA Theory and Design    | History of SNA, theoretical background, research design                                            |
-| Data Collection/Activity | Participants learn about and collect Sociocentric and Egocentric data.                             |
-| Break                    |                                                                                                    |
-| Research Questions       | Network research questions and briefly identify statistical procedures                             |
-| Group Case Study         | Participants will be given real settings and discuss which designs/questions can be used/answered. |
-| Hypothesis Testing       | Demonstration of hypothesis testing techniques and modeling.                                       |
-| Debrief                  | Participants will be briefed on resources to learn more and given a list of next steps.            |
