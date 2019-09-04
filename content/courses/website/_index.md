@@ -1,8 +1,8 @@
 ---
 # Course title, summary, and position.
-linktitle: Advanced Social Network Analysis
-summary: Data driven workshop on analysis techniques.
-weight: 2
+linktitle: Academic Website using Markdown
+summary: Create your own academic website like this one in under 30 minutes.
+weight: 3
 
 # Page metadata.
 title: Introduction
@@ -16,12 +16,12 @@ type: docs  # Do not modify.
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
 menu:
-  advanced:
+  website:
     name: Introduction
     weight: 1
 ---
 
-## Welcome to Advanced Social Network Analysis
+## So you want to make your own website?
 
 {{% alert note %}}
 **This workshop is still under construction. Please check back later for more information.**
