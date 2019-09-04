@@ -2,18 +2,18 @@
     "collab_server" : "",
     "contents" : "",
     "created" : 1567612103190.000,
-    "dirty" : false,
+    "dirty" : true,
     "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "0",
     "id" : "144ADD67",
     "lastKnownWriteTime" : 1567614058,
-    "last_content_update" : 1567614059005,
+    "last_content_update" : 1567614236005,
     "path" : "~/GitHub/academic-kickstart2/content/courses/website/example1.md",
     "project_path" : "content/courses/website/example1.md",
     "properties" : {
-        "cursorPosition" : "18,0",
-        "scrollLine" : "5"
+        "cursorPosition" : "33,152",
+        "scrollLine" : "6"
     },
     "relative_order" : 4,
     "source_on_save" : false,

@@ -31,4 +31,4 @@ For this workshop we will be using the [Academic theme](https://themes.gohugo.io
 
 ## Academic Theme
 
-The Academic theme is what we will be using here. 
+The Academic theme is what we will be using here. [This](https://academic-demo.netlify.com/) is a demo of what you can expect right away with the theme.
