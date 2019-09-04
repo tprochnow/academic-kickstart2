@@ -27,7 +27,7 @@ menu:
 
 ## So you want to make your own website?
 
-The academic website has gained popularity over the last several years as another way to both showcase research and accomplishments as well as a way to disseminate ideas in a different manner. I mean you are on one right now. Whether you want to have a place to blog, disseminate research, or have a dynamic way of displaying your CV, an academic website may be a good choice. Through this workshop I provide a very brief run through on how to create and edit an academic website using Hugo-Academic and Netlify. While there are many different formats and providers, Hugo and Netlify are the ones I am most comfortable with and were used in the creation of this website. This will be a barebones website (what do you expect in 30 minutes) but feel free to contact me for more information.
+The academic website has gained popularity over the last several years as another way to both showcase research and accomplishments as well as a way to disseminate ideas in a different manner. I mean you are on one right now. Whether you want to have a place to blog, disseminate research, or have a dynamic way of displaying your CV, an academic website may be a good choice. Through this workshop I provide a very brief run through on how to create and edit an academic website using [Hugo](https://gohugo.io/) -[Academic theme](https://themes.gohugo.io/academic/) and [Netlify](https://app.netlify.com/). While there are many different formats and providers, Hugo and Netlify are the ones I am most comfortable with and were used in the creation of this website. This will be a barebones website (what do you expect in 30 minutes) but feel free to contact me for more information.
 
 ## What will you need?
 
@@ -37,4 +37,4 @@ The academic website has gained popularity over the last several years as anothe
 
 ## What will it cost?
 
-Blood, sweat, and tears. Okay, maybe only the last two. Creating and editing your website is completely free and we actually won't pay for anything today in the 30 minutes. You will have to pay for a domain name and for it to be hosted online. There are affordable options for this. I use Netlify [Netlify](https://app.netlify.com/) in order to do this as it taps directly into my github account. I will frame the workshop with this in mind but you are more than welcome to explore your options. 
+Blood, sweat, and tears. Okay, maybe only the last two. Creating and editing your website is completely free and we actually won't pay for anything today in the 30 minutes. You will have to pay for a domain name and for it to be hosted online. There are affordable options for this. I use [Netlify](https://app.netlify.com/) in order to do this as it taps directly into my github account. I will frame the workshop with this in mind but you are more than welcome to explore your options. 

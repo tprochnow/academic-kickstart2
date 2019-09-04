@@ -29,4 +29,6 @@ For this workshop we will be using the [Academic theme](https://themes.gohugo.io
 * [Lodi theme](https://themes.gohugo.io/hugo-lodi-theme/)
 * [Future Imperfect theme](https://themes.gohugo.io/future-imperfect/)
 
+## Academic Theme
 
+The Academic theme is what we will be using here. 
