@@ -4,7 +4,7 @@ linktitle: Hypothesis Testing
 toc: true
 type: docs
 date: "2019-05-05T00:00:00+01:00"
-draft: false
+draft: true
 menu:
   intro:
     parent: Workshop
@@ -25,7 +25,7 @@ weight: 6
 
 ## Slides
 
-<iframe src="https://baylor0-my.sharepoint.com/personal/tyler_prochnow1_baylor_edu/_layouts/15/Doc.aspx?sourcedoc={3d896729-d252-480d-9b01-6e0a3e10ce86}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="350px" height="221px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+<iframe src="https://baylor0-my.sharepoint.com/personal/tyler_prochnow1_baylor_edu/_layouts/15/Doc.aspx?sourcedoc={3d896729-d252-480d-9b01-6e0a3e10ce86}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="962px" height="565px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
 
 ## Data Analysis Tools Used
 

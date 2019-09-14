@@ -12,6 +12,12 @@ menu:
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 4
+
+# url_code = "#"
+# url_dataset = "#"
+# url_project = "#"
+# url_slides = "#"
+# url_video = "#"
 ---
 
 ## Key Points
@@ -22,8 +28,3 @@ weight: 4
 
 ## Further Reading
 
-# url_code = "#"
-# url_dataset = "#"
-# url_project = "#"
-# url_slides = "#"
-# url_video = "#"

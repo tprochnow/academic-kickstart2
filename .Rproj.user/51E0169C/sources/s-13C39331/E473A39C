@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3320700950",
+    "hash" : "1571280581",
     "id" : "E473A39C",
-    "lastKnownWriteTime" : 1568486811,
-    "last_content_update" : 1568486811681,
+    "lastKnownWriteTime" : 1568489208,
+    "last_content_update" : 1568489208887,
     "path" : "~/GitHub/academic-kickstart2/content/courses/intro/example1.md",
     "project_path" : "content/courses/intro/example1.md",
     "properties" : {
-        "cursorPosition" : "22,0",
+        "cursorPosition" : "18,17",
         "scrollLine" : "3"
     },
     "relative_order" : 2,
