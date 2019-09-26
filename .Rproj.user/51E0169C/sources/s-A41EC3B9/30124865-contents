@@ -20,7 +20,7 @@ From the files portion of your R Studio you can navigate through the website fil
 
 First, let's edit your author profile. This will be the first thing people will see when they access your website. 
 
-1. Navigate through your file to `content/authors/admin/_index.md` 
+1. Navigate through your file to content/authors/admin/_index.md 
 2. Here you can edit your display name, position, bio, and education.
 3. When entering your interests keep them short and try to build a theme throughout your profile.
 4. You can add icons and buttons below your profile picture by uncommenting (deleting the #) and adding your link. The more of these you can use the better your search engine numbers will be. We will talk about this later. 
@@ -28,4 +28,4 @@ First, let's edit your author profile. This will be the first thing people will 
 
 ## Profile Picture
 
-To add a profile picture add a JPEG file to the `content/authors/admin` folder titled avatar.jpg
+To add a profile picture add a JPEG file to the content/authors/admin folder titled avatar.jpg
