@@ -1,21 +1,21 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1570895360758.000,
+    "created" : 1572400889494.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
-    "id" : "2FDCEB69",
-    "lastKnownWriteTime" : 1570895814,
-    "last_content_update" : 1570895814044,
+    "hash" : "597013087",
+    "id" : "74C654BB",
+    "lastKnownWriteTime" : 1572400924,
+    "last_content_update" : 1572400924630,
     "path" : "~/GitHub/academic-kickstart2/content/publication/collegegroupex/index.md",
     "project_path" : "content/publication/collegegroupex/index.md",
     "properties" : {
-        "cursorPosition" : "24,941",
-        "scrollLine" : "0"
+        "cursorPosition" : "44,0",
+        "scrollLine" : "31"
     },
-    "relative_order" : 3,
+    "relative_order" : 2,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "markdown"

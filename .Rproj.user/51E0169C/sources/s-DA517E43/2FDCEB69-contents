@@ -42,7 +42,7 @@ projects = []
  tags = ["SNA"]
 
 # Links (optional).
-url_pdf = "https://www.tandfonline.com/doi/full/10.1080/07448481.2019.1679150”
+ url_pdf = "https://www.tandfonline.com/doi/full/10.1080/07448481.2019.1679150”
 # url_preprint = "#"
 # url_code = "#"
 # url_dataset = "#"
