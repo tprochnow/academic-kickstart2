@@ -1,6 +1,6 @@
 +++
 title = "Social networks, group exercise, and anxiety among college students"
-date = 2019-10-29
+date = 2019-10-28
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
