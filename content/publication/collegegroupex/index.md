@@ -1,6 +1,6 @@
 +++
 title = "Social networks, group exercise, and anxiety among college students"
-date = 2019-11-01
+date = 2019-10-29
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -42,7 +42,7 @@ projects = []
  tags = ["SNA"]
 
 # Links (optional).
-# url_pdf = "https://www.ingentaconnect.com/content/png/ajhb/2019/00000043/00000004/art00011"
+ url_pdf = "https://www.tandfonline.com/doi/full/10.1080/07448481.2019.1679150”
 # url_preprint = "#"
 # url_code = "#"
 # url_dataset = "#"
