@@ -42,7 +42,7 @@ projects = ["rps"]
  tags = ["Youth PA"]
 
 # Links (optional).
-# url_pdf = "https://insights.ovid.com/crossref?an=00124784-900000000-99371"
+ url_pdf = “https://www.tandfonline.com/eprint/F5A9ZTCXY42VZA3TIBD5/full?target=10.1080/02701367.2019.1656793"
 # url_preprint = "#"
 # url_code = "#"
 # url_dataset = "#"
