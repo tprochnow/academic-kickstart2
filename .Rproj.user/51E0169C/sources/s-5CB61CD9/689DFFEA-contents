@@ -42,7 +42,7 @@ projects = []
  tags = ["SNA"]
 
 # Links (optional).
- url_pdf = "/onlinestructure/pdf"
+ url_pdf = "/onlinestructure/pdf.PDF"
 # url_preprint = "#"
 # url_code = "#"
 # url_dataset = "#"
