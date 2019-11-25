@@ -7,7 +7,7 @@ all_day = true
 publishDate = 2019-02-17
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Prochnow, T", "Patterson, M", "Cullinan, K", "Umstattd Meyer, MR"]
+authors = ["Prochnow, T", "Patterson, MS", "Cullinan, K", "Umstattd Meyer, MR"]
 
 # time_start = 2019-09-12T12:50:00
 # time_end = 2019-06-01
