@@ -35,7 +35,7 @@ featured = true
 #   Simply enter your project's filename without extension.
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
 #   Otherwise, set `projects = []`.
-projects = []
+projects = ["onlinegaming"]
 
 # Tags (optional).
 #   Set `tags = ["Advertising", "Location Based", "Virtual Reality"]` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
