@@ -1,0 +1,103 @@
+#Coalition SNA Collaborations
+install.packages("network")
+install.packages("statnet")
+install.packages("sna")
+install.packages("readxl")
+install.packages("xlsx")
+library(network)
+library(statnet)
+library(sna)
+library(readxl)
+library(xlsx)
+attr <- read_excel("BGC SNA/Data/Time 1/Kenosha Morning/KMT1ego.xlsx")
+edges <- read.csv("BGC SNA/Data/Time 1/Kenosha Morning/KMT1edge.csv")
+attr<- read_excel('BGC SNA/Data/Time 1/Waco/wacoT1ego7.30.xlsx')
+edges <- read.csv("BGC SNA/Data/Time 1/Waco/wacoT1edgelist.csv")
+network<-network(edges,matrix.type="edgelist", directed=T)
+network.vertex.names(network)
+network %v% "age" <- attr$Age 
+network %v% "sex" <- attr$sex
+network %v% "previous" <- attr$Previous_attendance
+network %v% "years" <- attr$yearsattending
+network %v% "PA" <-attr$PAweekly
+network %v% "skill" <- attr$skillave 
+network %v% "BGCnet" <- attr$BGCnet
+network %v% "Outnet" <- attr$Outnet
+network %v% "help" <- attr$BGCperhelp
+network %v% "BGCskill" <-attr$ego_skill4
+
+get.vertex.attribute(network,"age")
+network
+summary(network)
+plot(network)
+### Descriptives
+network.edgecount(network) 
+
+#Number of Dyads (Node Pairs)
+network.dyadcount(network)
+degree <- degree(network)
+centrality <- data.frame(node=c(1:128),
+                         degree=degree)
+
+mean(degree)
+sd(degree)
+Closeness <- closeness(network)
+cl <- component.largest(network)
+Closeness2 <- closeness(network[cl,cl])
+closeness <- data.frame(node=c(1:17),
+                        closeness=Closeness2)
+mean(Closeness2)
+sd(Closeness2)
+Betweenness <- betweenness(network, gmode="digraph")
+centrality$betweenness<-Betweenness
+centrality$closeness<-Closeness
+centrality$bonacich<-Bonacich1
+mean(Betweenness)
+sd(Betweenness)
+Bonacich1 <- bonpow(network, 
+                    gmode="digraph", 
+                    exponent=1)
+Bonacich1 <- bonpow(network[cl,cl], 
+                    gmode="digraph", 
+                    exponent=1)
+
+mean(Bonacich1)
+sd(Bonacich1)
+gden(network, mode = 'digraph')
+gtrans(network)
+
+write.xlsx(centrality, "centralityBGC.xlsx")
+write.xlsx(closeness, "closenessWASHSNA.xlsx")
+
+mixingmatrix(network,"age")
+
+PA<-network %v% "PA"
+age<-network %v% "age"  
+sex<-network %v% "sex" 
+skill<-network %v% "skill"
+BGCnet<-network %v% "BGCnet"
+Outnet<-network %v% "Outnet"
+
+
+lnam.model<-lnam(y=PA,x=cbind(age,sex,skill,BGCnet,Outnet),W1=network)
+summary(lnam.model)
+
+library(ergm)
+mod.02<-ergm(network~edges+mutual+gwesp(.4,fixed=T)+odegree(1:5)+nodeicov("BGCskill")+nodematch("age")+nodefactor("sex")+nodeocov("Outnet")+nodeicov("PA"))
+summary(mod.02)
+
+mod.02 <-ergm(network~edges+mutual+gwesp(.1,fixed=T)+nodeicov("BGCskill")+nodematch("age")+nodefactor("sex")+nodeocov("Outnet")+nodecov("PA"))
+summary(mod.02)              
+
+mod.03<-ergm(network~edges+nodecov("age")+nodecov("BGCnet")+nodecov("skill")+mm("sex")+nodecov("Outnet")+nodecov("PA"))
+summary(mod.03)
+
+mod.sum<-summary(mod.03)
+coef<-mod.sum$coefficients
+estimate<-coef$Estimate
+estimate
+#ii) Convert our estimate from log odds to a probability
+probability<-exp(estimate)/(1+exp(estimate))
+probability
+
+mcmc.diagnostics(mod.01)
