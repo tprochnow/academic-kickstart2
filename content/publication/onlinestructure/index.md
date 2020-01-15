@@ -1,6 +1,6 @@
 +++
 title = "Social support, depressive symptoms, and online gaming network communication"
-date = 2020-1-14
+date = 2020-01-14
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.

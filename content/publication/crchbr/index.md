@@ -1,6 +1,6 @@
 +++
 title = "Impact of social networks, mental health, and sobriety on exercise within a collegiate recovery community"
-date = 2020-2-15
+date = 2020-02-15
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.

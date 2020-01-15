@@ -1,6 +1,6 @@
 +++
 title = "Social network analysis in child physical activity and sedentary behavior research: A systematic literature review"
-date = 2020-1-13
+date = 2020-01-13
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.

@@ -1,6 +1,6 @@
 +++
 title = "The Spread and Utility of Social Network Analysis across a Group of Health Behavior Researchers"
-date = 2020-1-12
+date = 2020-01-12
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
