@@ -42,7 +42,7 @@ projects = ["onlinegaming"]
  tags = ["SNA"]
 
 # Links (optional).
- url_pdf = "onlinestructure.pdf"
+ url_pdf = "https://www.emerald.com/insight/content/doi/10.1108/MHSI-11-2019-0033/full/html?skipTracking=true"
 # url_preprint = "#"
 # url_code = "#"
 # url_dataset = "#"
