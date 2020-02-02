@@ -27,7 +27,7 @@ weight: 1
 
 We will try to place slides in their respective webpages. Here is a working versions of the slides used in the workshop
 
-<iframe src="https://baylor0-my.sharepoint.com/personal/tyler_prochnow1_baylor_edu/_layouts/15/Doc.aspx?sourcedoc={0144fba1-94ee-4c85-a0d1-3d41441d9e31}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="350px" height="221px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+[Click here for slides](/courses/intro/Workshop.pdf)
 
 
 ## Expectations
