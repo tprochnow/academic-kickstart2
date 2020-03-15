@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "2064781730",
     "id" : "795B64AA",
-    "lastKnownWriteTime" : 1583258337,
-    "last_content_update" : 1583258337283,
+    "lastKnownWriteTime" : 1584315387,
+    "last_content_update" : 1584315387512,
     "path" : "~/GitHub/academic-kickstart2/content/talk/PCSPUSF.md",
     "project_path" : "content/talk/PCSPUSF.md",
     "properties" : {
-        "cursorPosition" : "0,3",
-        "scrollLine" : "0"
+        "cursorPosition" : "48,29",
+        "scrollLine" : "39"
     },
     "relative_order" : 6,
     "source_on_save" : false,
