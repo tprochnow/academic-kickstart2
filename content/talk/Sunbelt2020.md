@@ -1,5 +1,5 @@
 +++
-title = "Impact of online and offline network and support on depressive symptoms among a network of online gamers"
+title = "How social support and depressive symptoms relate to connections made among online gamers"
 date = 2020-07-13
 draft = false
 all_day = true
