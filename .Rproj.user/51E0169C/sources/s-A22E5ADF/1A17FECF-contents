@@ -8,7 +8,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 60  # Order that this section will appear.
 
-title = "Featured Publications"
+title = "First Author Publications"
 subtitle = ""
 
 [content]
@@ -16,7 +16,7 @@ subtitle = ""
   page_type = "publication"
   
   # Choose how much pages you would like to display (0 = all pages)
-  count = 0
+  count = 5
 
   # Page order. Descending (desc) or ascending (asc) date.
   order = "desc"
@@ -27,6 +27,18 @@ subtitle = ""
     category = ""
     publication_type = ""
   
+  [[content.filter_button]]
+     name = "All"
+     tag = "*"
+  
+   [[content.filter_button]]
+     name = "Social Network Analysis"
+     tag = "SNA"
+  
+   [[content.filter_button]]
+     name = "Youth Physical Activity"
+     tag = "Youth PA"
+
 [design]
   # Toggle between the various page layout types.
   #   1 = List
@@ -62,3 +74,7 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+
+{{% alert note %}}
+Find full list of [publications here]({{< ref "/publication/_index.md" >}}).
+{{% /alert %}}

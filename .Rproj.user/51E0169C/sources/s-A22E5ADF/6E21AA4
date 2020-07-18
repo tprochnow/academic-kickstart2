@@ -5,13 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1908055711",
+    "hash" : "0",
     "id" : "6E21AA4",
     "lastKnownWriteTime" : 1594259699,
     "last_content_update" : 1594259699,
     "path" : "~/GitHub/Tprochnow.com/content/home/projects.md",
     "project_path" : "content/home/projects.md",
     "properties" : {
+        "cursorPosition" : "24,3",
+        "scrollLine" : "20"
     },
     "relative_order" : 5,
     "source_on_save" : false,
