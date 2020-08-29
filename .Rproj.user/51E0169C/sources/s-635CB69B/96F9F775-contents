@@ -1,0 +1,183 @@
+#Coalition SNA Collaborations
+install.packages("network")
+install.packages("statnet")
+install.packages("sna")
+install.packages("readxl")
+install.packages("xlsx")
+install.packages("RSiena")
+
+library(network)
+library(statnet)
+library(sna)
+library(readxl)
+library(xlsx)
+library(tidyverse)
+library(lattice)
+library(ergm)
+library(car)
+
+
+## Waco Network
+
+attrW1<- read_excel('Data/Time 1/Waco/wacoT1ego10.22.xlsx',col_names = T)
+edgesW1 <- read_excel("Data/Time 1/Waco/wacoT1edgelist.xlsx",col_names = TRUE)
+
+edgesW2 <-read_excel("Data/Time 2/Waco/Waco Edges T2.xlsx",col_names = TRUE)
+attrW2<- read_excel('Data/Time 2/Waco/Waco ATTR T2.2.27.20.xlsx',col_names = TRUE)
+
+nodesW1<-distinct(as.data.frame(c(edgesW1$Child,edgesW1$Alter)))
+nodesW1<-rename(nodesW1,"Child"=`c(edgesW1$Child, edgesW1$Alter)`)
+nodesW1 <- left_join(nodesW1, attrW1, by="Child")
+nodesW1<-select(nodesW1, Child, sex, Age, PAweekly, race2)
+
+nodesW1<-mutate(nodesW1, newID=1:99)                               
+edgesW1 <- left_join(edgesW1, nodesW1, by="Child")
+edgesW1 <- select(edgesW1, newID, Alter)
+edgesW1 <- rename(edgesW1, Child="Alter", sender="newID")
+edgesW1 <- left_join(edgesW1, nodesW1, by="Child")
+edgesW1 <- select(edgesW1, sender, newID)
+edgesW1 <- rename(edgesW1, target="newID")
+networkW1 <- as.network(edgesW1, vertices=nodesW1, directed=T)
+
+networkW1
+
+plot(networkW1)
+
+networkW1 %v% "age" <- nodesW1$Age 
+networkW1 %v% "sex" <- nodesW1$sex
+networkW1 %v% "PAw" <-nodesW1$PAweekly
+networkW1 %v% "race" <-nodesW1$race2
+
+networkW1<-delete.vertices(networkW1 , which(is.na(networkW1 %v% "age")))
+nodesW1<-na.omit(nodesW1)
+
+##WACO TIME 2
+nodesW2<-distinct(as.data.frame(c(edgesW2$Child,edgesW2$Alter)))
+nodesW2<-rename(nodesW2,"Child"=`c(edgesW2$Child, edgesW2$Alter)`)
+nodesW2 <- left_join(nodesW2, attrW2, by="Child")
+nodesW2<-select(nodesW2, Child, sex, Age, PAweekly, race2)
+
+nodesW2<-mutate(nodesW2, newID=1:112)                               
+edgesW2 <- left_join(edgesW2, nodesW2, by="Child")
+edgesW2 <- select(edgesW2, newID, Alter)
+edgesW2 <- rename(edgesW2, Child="Alter", sender="newID")
+edgesW2 <- left_join(edgesW2, nodesW2, by="Child")
+edgesW2 <- select(edgesW2, sender, newID)
+edgesW2 <- rename(edgesW2, target="newID")
+networkW2 <- as.network(edgesW2, vertices=nodesW2, directed=T)
+
+networkW2
+
+plot(networkW2)
+
+networkW2 %v% "age" <- nodesW2$Age 
+networkW2 %v% "sex" <- nodesW2$sex
+networkW2 %v% "PAw" <-nodesW2$PAweekly
+networkW2 %v% "race" <-nodesW2$race2
+
+networkW2<-delete.vertices(networkW2 , which(is.na(networkW2 %v% "age")))
+nodesW2<-na.omit(nodesW2)
+
+library(ergm)
+ergm.01<-ergm(networkW1~edges+mutual+gwesp(.35,fixed=T)+nodematch("sex")+absdiff("age")+nodematch("race")+absdiff("PAw")+nodeocov("age")+nodeocov("PAw")+nodeofactor("race")+nodeicov("age")+nodeifactor("race")+nodeicov("PAw"))
+summary(ergm.01)
+mcmc.diagnostics(ergm.01)
+
+ergm.02<-ergm(networkW2~edges+mutual+gwesp(.35,fixed=T)+nodematch("sex")+absdiff("age")+nodematch("race")+absdiff("PAw")+nodeocov("age")+nodeocov("PAw")+nodeofactor("race")+nodeicov("age")+nodeifactor("race")+nodeicov("PAw"))
+summary(ergm.02)
+mcmc.diagnostics(ergm.02)
+
+##RESET CODE for STERGM##
+
+nodes<-distinct(as.data.frame(c(edgesW1$Child,edgesW1$Alter,edgesW2$Child,edgesW2$Alter,attrW2$Child,attrW1$Child)))
+names(nodes)[1] <- "Child"
+nodesW1 <- left_join(nodes, attrW1, by="Child")
+nodesW2<-left_join(nodes, attrW2, by="Child")
+nodesW1<-select(nodesW1, Child, sex, Age, PAweekly, race2)
+nodesW2<-select(nodesW2, Child, sex, Age, PAweekly, race2)
+
+
+nodesW1<-mutate(nodesW1, newID=1:138)
+nodesW2<-mutate(nodesW2, newID=1:138)
+edgesW1 <- left_join(edgesW1, nodesW1, by="Child")
+edgesW1 <- select(edgesW1, newID, Alter)
+edgesW1 <- rename(edgesW1, Child="Alter", sender="newID")
+edgesW1 <- left_join(edgesW1, nodesW1, by="Child")
+edgesW1 <- select(edgesW1, sender, newID)
+edgesW1 <- rename(edgesW1, target="newID")
+nodesW1<-nodesW1[c(6,1,2,3,4,5)]
+names(nodesW1)[1] <- "sender"
+
+edgesW2 <- left_join(edgesW2, nodesW2, by="Child")
+edgesW2 <- select(edgesW2, newID, Alter)
+edgesW2 <- rename(edgesW2, Child="Alter", sender="newID")
+edgesW2 <- left_join(edgesW2, nodesW2, by="Child")
+edgesW2 <- select(edgesW2, sender, newID)
+edgesW2 <- rename(edgesW2, target="newID")
+nodesW2<-nodesW2[c(6,1,2,3,4,5)]
+names(nodesW2)[1] <- "sender"
+nodes<-(left_join(nodesW1,nodesW2,by="Child"))
+
+
+networkW1<-network.initialize(138)
+network.vertex.names(networkW1)<-nodes$sender.x
+networkW1[as.matrix(edgesW1)] <- 1
+networkW2<-network.initialize(138)
+network.vertex.names(networkW2)<-nodes$sender.x
+networkW2[as.matrix(edgesW2)] <- 1
+
+age<-select(nodes,sender.x,Age.x,Age.y)
+age$age = age$Age.x  # your new merged column start with x
+age$age[!is.na(age$Age.y)] = age$Age.y[!is.na(age$Age.y)]  # merge with y
+nodes$age<-age$age
+
+race<-select(nodes,sender.x,race2.x,race2.y)
+race$race = race$race2.x  # your new merged column start with x
+race$race[!is.na(race$race2.y)] = race$race2.y[!is.na(race$race2.y)]  # merge with y
+nodes$race<-race$race
+
+sex<-select(nodes,sender.x,sex.x,sex.y)
+sex$sex = sex$sex.x  # your new merged column start with x
+sex$sex[!is.na(sex$sex.y)] = sex$sex.y[!is.na(sex$sex.y)]  # merge with y
+nodes$sex<-sex$sex
+
+
+networkW1 %v% "age" <- nodes$age
+networkW1 %v% "sex" <- nodes$sex
+networkW1 %v% "race" <- nodes$race
+networkW1 %v% "PA" <- nodes$PAweekly.x
+networkW1 %v% "PA2" <- nodes$PAweekly.y
+
+networkW2 %v% "age" <- nodes$age 
+networkW2 %v% "sex" <- nodes$sex
+networkW2 %v% "race" <- nodes$race
+networkW2 %v% "PA" <- nodes$PAweekly.y
+networkW2 %v% "PA2" <- nodes$PAweekly.x
+
+networkW1<-delete.vertices(networkW1 , which(is.na(networkW1 %v% "PA")))
+networkW2<-delete.vertices(networkW2 , which(is.na(networkW2 %v% "PA")))
+networkW1<-delete.vertices(networkW1 , which(is.na(networkW1 %v% "PA2")))
+networkW2<-delete.vertices(networkW2 , which(is.na(networkW2 %v% "PA2")))
+
+nodes<-nodes %>%drop_na(PAweekly.x)
+nodes<-nodes %>%drop_na(PAweekly.y)
+
+networkW1
+networkW2
+plot(networkW1)
+plot(networkW2)
+
+network<-networkDynamic(network.list = list(networkW1,networkW2), start=1)
+##STERGM
+
+mod.01<-stergm(network,
+               formation = ~edges+mutual+gwesp(.4,fixed=T)+nodematch("sex")+nodematch("age")+nodematch("race")+absdiff("PA")+nodeofactor("sex")+nodeocov("age")+nodeofactor("race")+nodeocov("PA")+nodeifactor("sex")+nodeicov("age")+nodeifactor("race")+nodeicov("PA"),
+               dissolution = ~edges+mutual+gwesp(.4,fixed=T)+nodematch("sex")+nodematch("age")+nodematch("race")+absdiff("PA")+nodeofactor("sex")+nodeocov("age")+nodeofactor("race")+nodeocov("PA")+nodeifactor("sex")+nodeicov("age")+nodeifactor("race")+nodeicov("PA"),
+               estimate = "CMLE",
+               time= c(1:2))
+summary(mod.01)
+mcmc.diagnostics(mod.01)
+
+
+## 
+

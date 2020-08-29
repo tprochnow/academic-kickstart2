@@ -42,7 +42,7 @@ projects = []
  tags = ["SNA", "Youth PA"]
 
 # Links (optional).
-# url_pdf = ""
+ url_pdf = "https://journals.humankinetics.com/view/journals/jpah/aop/article-10.1123-jpah.2019-0655/article-10.1123-jpah.2019-0655.xml"
 # url_preprint = "#"
 # url_code = "#"
 # url_dataset = "#"
