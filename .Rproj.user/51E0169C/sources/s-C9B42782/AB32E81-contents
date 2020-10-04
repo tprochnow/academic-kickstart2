@@ -4,7 +4,7 @@ date = 2020-09-28
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = [ "Prochnow, T","Oglesby, L" "Patterson, MS", "Umstattd Meyer, MR"]
+authors = ["Prochnow, T","Oglesby, L" "Patterson, MS", "Umstattd Meyer, MR"]
 
 # Publication type.
 # Legend:
@@ -39,7 +39,7 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = ["Advertising", "Location Based", "Virtual Reality"]` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
- tags = [""]
+ tags = []
 
 # Links (optional).
  url_pdf = "https://www.tandfonline.com/eprint/CDQG2D7WAWGRUVEPABCN/full?target=10.1080/23750472.2020.1825986"
