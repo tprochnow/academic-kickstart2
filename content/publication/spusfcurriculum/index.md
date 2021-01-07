@@ -1,6 +1,6 @@
 +++
 title = "The development and pilot testing of the ¡Haz Espacio para Papi! program physical activity curriculum for Mexican-heritage fathers and children"
-date = 2021-02-1
+date = 2021-02-01
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
