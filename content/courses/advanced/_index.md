@@ -1,6 +1,6 @@
 ---
 # Course title, summary, and position.
-linktitle: Intermediate Social Network Analysis: Applications in Active Living
+linktitle: Intermediate Social Network Analysis Applications in Active Living
 summary: Application driven workshop on analysis techniques.
 weight: 2
 
