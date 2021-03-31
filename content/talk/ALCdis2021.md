@@ -1,5 +1,5 @@
 +++
-title = "Promotora partnerships in the creation of the ¡Haz Espacio para Papi! program to engage Mexican-heritage youth and fathers"
+title = "Will you play with me? Changes in frequency of active play with social network for Mexican-heritage children participating in a father-focused health program"
 date = 2021-04-08
 draft = false
 all_day = true
@@ -46,9 +46,9 @@ projects = ["SPUSF"]
 # url_code = "#"
 # url_dataset = "#"
 # url_project = "#"
-# url_slides = "#"
+ url_slides = "files/ALCdis2021.pdf"
 # url_video = "#"
- url_poster = "files/ALCdis2021.pdf"
+# url_poster = ""
 # url_source = "#"
 
 # Custom links (optional).
