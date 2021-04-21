@@ -42,7 +42,7 @@ projects = ["SPUSF"]
  tags = ["Child PA"]
 
 # Links (optional).
-# url_pdf = "https://www.mdpi.com/1660-4601/17/24/9243"
+ url_pdf = "https://www.tandfonline.com/eprint/UJ3HZSXQATVEHAI9UPZJ/full?target=10.1080/19325037.2021.1902888"
 # url_preprint = "#"
 # url_code = "#"
 # url_dataset = "#"
