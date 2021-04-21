@@ -1,21 +1,21 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1618882541984.000,
+    "created" : 1619024096909.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
-    "id" : "E6E51D62",
-    "lastKnownWriteTime" : 1599932330,
-    "last_content_update" : 1599932330,
+    "hash" : "2625523888",
+    "id" : "E9FE6132",
+    "lastKnownWriteTime" : 1619024137,
+    "last_content_update" : 1619024137806,
     "path" : "~/GitHub/Tprochnow.com/content/publication/perception/index.md",
     "project_path" : "content/publication/perception/index.md",
     "properties" : {
-        "cursorPosition" : "44,0",
-        "scrollLine" : "0"
+        "cursorPosition" : "71,49",
+        "scrollLine" : "53"
     },
-    "relative_order" : 3,
+    "relative_order" : 4,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "markdown"
