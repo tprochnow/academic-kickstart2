@@ -39,6 +39,9 @@ math = false
 [Click here for slides](/files/Workshop.pdf)
 
 *Twitter Scan*
+- [List of Tweets](/files/tweets.xlsx)
+- [Sentiment Analysis](/files/sentiments.csv)
+- [Word Frequency](/files/wordfreq.csv)
 
 *Peer Reviewed Literature*
 
