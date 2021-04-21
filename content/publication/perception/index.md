@@ -69,4 +69,4 @@ image= "featured.jpg"
   preview_only= false
 
 +++
-[Click here for a shareable brief on this article](/static/files/BGCPerceptionbrief.pdf)
+[Click here for a shareable brief on this article](/files/BGCPerceptionbrief.pdf)

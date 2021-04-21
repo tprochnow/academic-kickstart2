@@ -31,11 +31,11 @@ This project is funded by the Baylor University Research Committee in collaborat
 
 **Resources and Briefs**
 
-[COVID and The Club: Conversations with Boys & Girls Club Leaders on providing services during COVID-19](/static/files/BGCCOVIDbrief.pdf)
+[COVID and The Club: Conversations with Boys & Girls Club Leaders on providing services during COVID-19](/files/BGCCOVIDbrief.pdf)
 
-[A social network analysis approach to group and individual perceptions of child physical activity](/static/files/BGCPerceptionbrief.pdf)
+[A social network analysis approach to group and individual perceptions of child physical activity](/files/BGCPerceptionbrief.pdf)
 
-[Social network effects on child self-reported physical activity at summer care programs](/static/files/BGCLongitudinalbrief.pdf)
+[Social network effects on child self-reported physical activity at summer care programs](/files/BGCLongitudinalbrief.pdf)
 
 **Responsibilities:**
 

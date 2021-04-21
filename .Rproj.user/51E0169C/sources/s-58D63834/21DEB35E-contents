@@ -36,7 +36,7 @@ math = false
 <br /><br />
 **Online Resources for this Project:**
 
-[Click here for slides](/courses/intro/Workshop.pdf)
+[Click here for slides](/files/Workshop.pdf)
 
 <br /><br />
 **Disclaimer** <br /><br />
