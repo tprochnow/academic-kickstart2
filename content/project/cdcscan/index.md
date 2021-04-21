@@ -35,8 +35,14 @@ math = false
 	Conduct an environmental scan of content produced by Black/African American experts from the United States related to the routes to destinations strategy. Include material from 2010 to present (depending on type of material) in the United States to obtain current information about the types of conversations happening. 
 <br /><br />
 **Online Resources for this Project:**
-
+*General*
 [Click here for slides](/files/Workshop.pdf)
+
+*Twitter Scan*
+
+*Peer Reviewed Literature*
+
+*Grey Literature*
 
 <br /><br />
 **Disclaimer** <br /><br />
