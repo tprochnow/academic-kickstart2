@@ -35,9 +35,10 @@ math = false
 	Conduct an environmental scan of content produced by Black/African American experts from the United States related to the routes to destinations strategy. Include material from 2010 to present (depending on type of material) in the United States to obtain current information about the types of conversations happening. 
 <br /><br />
 **Online Resources for this Project:**
+
 *General*
 
-[Click here for slides](/files/Workshop.pdf)
+- [Click here for Preliminary Finding Report](/files/cdcprelim.pdf)
 
 *Twitter Scan*
 
@@ -49,11 +50,18 @@ math = false
 
 *Peer Reviewed Literature*
 
+- [Complete Peer Reviewed data extraction table](/files/syslit.xlsx)
+
 *Grey Literature*
+
+- [Complete Grey Literature data extraction table](/files/greylit.xlsx)
+
+
+[Click here if you would like to suggest a resource or have any questions or comments on this project](https://forms.office.com/Pages/ResponsePage.aspx?id=NfvSImolm0W89Nwj1C3ApL6OUymJGCZGp-sfCjPfhClUQlA4MEZINkc4SUpTVjk4UENFNEtDSDEwSi4u)
 
 <br /><br />
 **Disclaimer** <br /><br />
-This project was supported by Cooperative Agreement Number NU38OT000315, funded by the Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Division of Nutrition, Physical Activity, and Obesity. The views and findings expressed in this webinar are those of the authors and are not meant to imply endorsement or reflect the views and policies of the U.S. Government.
+This project was supported by Cooperative Agreement Number NU38OT000315, funded by the Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Division of Nutrition, Physical Activity, and Obesity. The views and findings expressed in this report are those of the authors and are not meant to imply endorsement or reflect the views and policies of the U.S. Government.
 <br /><br />
 **Acknowledgements** <br /><br />
 I would like to acknowledge Dr. Danny Valdez for his critical input and expert analysis of the tweets using topic models. Without his expertise this analysis would not have been able to be performed using the most cutting-edge methods.  
