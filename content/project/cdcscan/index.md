@@ -40,6 +40,8 @@ math = false
 
 - [Click here for Preliminary Finding Report](/files/cdcprelim.pdf)
 
+- [Click here for Preliminary Presentation Slide Deck](/files/cdcprelimpres.pdf)
+
 *Twitter Scan*
 
 - [List of Tweets](/files/tweets.xlsx)
@@ -56,7 +58,7 @@ math = false
 
 - [Complete Grey Literature data extraction table](/files/greylit.xlsx)
 
-
+<br /><br />
 
 [Click here if you would like to suggest a resource or have any questions or comments on this project](https://forms.office.com/Pages/ResponsePage.aspx?id=NfvSImolm0W89Nwj1C3ApL6OUymJGCZGp-sfCjPfhClUQlA4MEZINkc4SUpTVjk4UENFNEtDSDEwSi4u)
 
