@@ -3,10 +3,10 @@
 date = 2021-06-21
 
 # Project title.
-title = "Environmental Scan of Black/African American Expert Discussion and Recommendations on Activity-Friendly Routes to Everyday Destinations"
+title = "Environmental Scan of Black/African American Expert Discussion on Activity-Friendly Routes to Everyday Destinations"
 
 # Project summary to display on homepage.
-summary = "Ongoing project contracted by CDC and SOPHE"
+summary = "Project contracted by CDC and SOPHE"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
  image_preview = "cdcscan.jpg"
@@ -38,25 +38,16 @@ math = false
 
 *General*
 
-- [Click here for Preliminary Finding Report](/files/cdcprelim.pdf)
+- [Click here for Report](/files/cdcreport.pdf)
 
-- [Click here for Preliminary Presentation Slide Deck](/files/cdcprelimpres.pdf)
 
 *Twitter Scan*
 
-- [List of Tweets](/files/tweets.xlsx)
 
 - [Sentiment Analysis](/files/sentiments.csv)
 
 - [Word Frequency](/files/wordfreq.csv)
 
-*Peer Reviewed Literature*
-
-- [Complete Peer Reviewed data extraction table](/files/syslit.xlsx)
-
-*Grey Literature*
-
-- [Complete Grey Literature data extraction table](/files/greylit.xlsx)
 
 <br /><br />
 

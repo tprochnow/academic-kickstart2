@@ -1,10 +1,10 @@
 +++
-title = "Sex Differences in Play Networks and Self-Reported Physical Activity Among Children at Summer Care Programs"
-date = 2021-05-17
+title = "Implications of race and ethnicity for child physical activity and social connections at summer care programs"
+date = 2021-07-07
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Prochnow, T","Patterson, MS", "Bridges Hamilton, CN", "Delgado, H", "Craig, S", "Umstattd Meyer, MR"]
+authors = ["Prochnow, T","Patterson, MS", "Hartnell, L", "West, G", "Umstattd Meyer, MR"]
 
 # Publication type.
 # Legend:
@@ -18,11 +18,11 @@ authors = ["Prochnow, T","Patterson, MS", "Bridges Hamilton, CN", "Delgado, H", 
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "*Child & Youth Services*"
-publication_short = "*Child & Youth Services*"
+publication = "*Child and Youth Services Review*"
+publication_short = "*Child and Youth Services Review*"
 
 # Abstract and optional shortened version.
- abstract = "This study examined sex differences in child friendship networks relative to summer care programs and associations with self-reported physical activity (PA) across summer. Children (n=182; mean age = 9.93 years; SD = 1.28) at two summer care programs reported PA and information about up to five people they hung around with at the program and five outside the program at the beginning and end of summer. Male children reported significantly more PA than females at both timepoints. Average PA of in-program friends was significantly associated with PA for both sexes. More studies should acknowledge access to summer care programming when assessing summertime PA."
+ abstract = "Latinx and African American children are disproportionately affected by obesity and often do not engage in enough physical activity (PA) to yield health benefits. Because children are less active during the summer compared to the school year, summer care programs can provide structure and social support needed for PA promotion. The purpose of this study was to examine how race/ethnicity relate to social connections and PA within a summer care program. Children self-reported race/ethnicity, PA, and friends at a summer care program before and after summer. PA did not significantly differ based on race/ethnicity or time. Additionally, children were more likely to make friends with and remain friends with those of the same race/ethnicity throughout the summer. PA was also related to a child’s social connections at the end of summer regardless of race/ethnicity. Using active play to connect children may promote diverse friend networks at these programs."
 
 # Featured image thumbnail (optional)
 # image_preview = ""
@@ -42,7 +42,7 @@ projects = ["BGC"]
  tags = ["SNA", "Youth PA"]
 
 # Links (optional).
- url_pdf = "https://www.tandfonline.com/eprint/5UBRHDPDTXW9DXT5QVFG/full?target=10.1080/0145935X.2021.1926228"
+ url_pdf = "https://www.sciencedirect.com/science/article/pii/S0190740921001845"
 # url_preprint = "#"
 # url_code = "#"
 # url_dataset = "#"
