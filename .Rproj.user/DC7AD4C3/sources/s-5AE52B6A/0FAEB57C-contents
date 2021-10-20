@@ -1,0 +1,394 @@
+#SIENA
+
+#Installing and loading packages
+install.packages("network")
+install.packages("statnet")
+install.packages("sna")
+install.packages("readxl")
+install.packages("xlsx")
+install.packages("ergm")
+install.packages("RSiena")
+library(network)
+library(statnet)
+library(sna)
+library(readxl)
+library(xlsx)
+library(tidyverse)
+library(RSiena)
+
+#Read in network attributes 
+
+attr1<- read_excel('[INSERT HERE]',col_names = T)
+attr2<- read_excel('[INSERT HERE]',col_names = T)
+
+#Read in edge list
+edges1 <- read_excel("[INSERT HERE]",col_names = T)
+edges2 <- read_excel("[INSERT HERE]",col_names = T)
+
+#create a node list for all possible nodes
+nodes<-distinct(as.data.frame(c(edges1$Ego,edges1$Alter,edges2$Ego,edges2$Alter,attr2$Ego,attr1$Ego)))
+
+#Rename column for better use
+nodes<-rename(nodes,"Ego"=`c(edges1$Ego, edges1$Alter, edges2$Ego, edges2$Alter, attr2$Ego, attr1$Ego)`)
+
+#Join to match attributes with edge list
+nodes1 <- left_join(nodes, attr1, by="Ego")
+nodes2 <- left_join(nodes, attr2, by="Ego")
+
+#Select columns for ease of use, optional
+nodes1<-select(nodes1, [INSERT ALL COLUMN NAMES WITH COMMAS BETWEEN])
+nodes2<-select(nodes2, [INSERT ALL COLUMN NAMES WITH COMMAS BETWEEN])
+
+#Check Data
+
+View(nodes1)
+
+#Reorder and ID nodes
+nodes1<-mutate(nodes1, newID=1:[NUMBER])
+nodes2<-mutate(nodes2, newID=1:[NUMBER])
+edges1 <- left_join(edges1, nodes1, by="Ego")
+edges1 <- select(edges1, newID, Alter)
+edges1 <- rename(edges1, Ego="Alter", sender="newID")
+edges1 <- left_join(edges1, nodes1, by="Ego")
+edges1 <- select(edges1, sender, newID)
+edges1 <- rename(edges1, target="newID")
+nodes1<-nodes1%>% select(newID,everything())
+names(nodes1)[1] <- "sender"
+
+
+edges2 <- left_join(edges2, nodes2, by="Ego")
+edges2 <- select(edges2, newID, Alter)
+edges2 <- rename(edges2, Ego="Alter", sender="newID")
+edges2 <- left_join(edges2, nodes2, by="Ego")
+edges2 <- select(edges2, sender, newID)
+edges2 <- rename(edges2, target="newID")
+nodes2<-nodes2%>% select(newID,everything())
+names(nodes2)[1] <- "sender"
+
+
+nodes<-(left_join(nodes1,nodes2,by="sender"))
+
+network1 <- as.network(edges1, vertices=nodes, directed=T)
+network2 <- as.network(edges2, vertices=nodes, directed=T)
+
+
+#Check Network
+network1
+network2
+
+
+#stop and think about how the network is impacted by missing data
+
+#SIENA IS ROBUST FOR MISSING DATA AND WILL IMPUTE SO WE DO NOT NEED THESE LINES
+#Remove nodes that do not have self reported information in either network
+#network1<-delete.vertices(network1 , which(is.na(network1 %v% "Age.x")))
+#network2<-delete.vertices(network2 , which(is.na(network2 %v% "Age.y")))
+#network1<-delete.vertices(network1 , which(is.na(network1 %v% "Age.y")))
+#network2<-delete.vertices(network2 , which(is.na(network2 %v% "Age.x")))
+
+#Remove NA's from the attribute table
+#nodes<-nodes %>%drop_na(Age.x)
+#nodes<-nodes %>%drop_na(Age.y)
+
+#Check Network
+network1
+network2
+
+#Plot Network
+plot(network1)
+plot(network2)
+
+#Jaccard Index
+net1<-as.matrix(network1)
+net2<-as.matrix(network2)
+
+netarray<-array(c(net1,net2),dim=c(dim(net1),2))
+dim(netarray)
+(tab1to2 <- table(net1,net2,useNA='always'))
+tab1to2[2,2] / (sum(tab1to2)-tab1to2[1,1])
+# Measure stability using the Jaccard index (script only works if no missing ties)
+
+
+### SIENA
+## Set up code for siena dependencies
+# Create a series of functions that will help interpret model performance & output 
+igraphNetworkExtraction <- function(i, data, sims, period, groupName, varName){
+  require(igraph)
+  dimsOfDepVar<- attr(data[[groupName]]$depvars[[varName]], "netdims")
+  missings <- is.na(data[[groupName]]$depvars[[varName]][,,period]) |
+    is.na(data[[groupName]]$depvars[[varName]][,,period+1])
+  if (is.null(i)) {
+    # sienaGOF wants the observation:
+    original <- data[[groupName]]$depvars[[varName]][,,period+1]
+    original[missings] <- 0
+    returnValue <- graph.adjacency(original)
+  }
+  else
+  {
+    missings <- graph.adjacency(missings)
+    #sienaGOF wants the i-th simulation:
+    returnValue <- graph.difference(
+      graph.empty(dimsOfDepVar) +
+        edges(t(sims[[i]][[groupName]][[varName]][[period]][,1:2])),
+      missings)
+  }
+  returnValue
+}
+
+GeodesicDistribution <- function (i, data, sims, period, groupName,
+                                  varName, levls=c(1:5,Inf), cumulative=TRUE, ...) {
+  x <- networkExtraction(i, data, sims, period, groupName, varName)
+  require(sna)
+  a <- sna::geodist(symmetrize(x))$gdist
+  if (cumulative)
+  {
+    gdi <- sapply(levls, function(i){ sum(a<=i) })
+  }
+  else
+  {
+    gdi <- sapply(levls, function(i){ sum(a==i) })
+  }
+  names(gdi) <- as.character(levls)
+  gdi
+}
+
+# Holland and Leinhardt Triad Census; see ?sna::triad.census.
+TriadCensus <- function(i, data, sims, wave, groupName, varName, levls=1:16){
+  unloadNamespace("igraph") # to avoid package clashes
+  require(sna)
+  require(network)
+  x <- networkExtraction(i, data, sims, wave, groupName, varName)
+  if (network.edgecount(x) <= 0){x <- symmetrize(x)}
+  # because else triad.census(x) will lead to an error
+  tc <- sna::triad.census(x)[1,levls]
+  # names are transferred automatically
+  tc
+}
+
+# Distribution of Bonacich eigenvalue centrality; see ?igraph::evcent.
+EigenvalueDistribution <- function (i, data, sims, period, groupName, varName,
+                                    levls=c(seq(0,1,by=0.125)), cumulative=TRUE){
+  require(igraph)
+  x <- igraphNetworkExtraction(i, data, sims, period, groupName, varName)
+  a <- igraph::evcent(x)$vector
+  a[is.na(a)] <- Inf
+  lel <- length(levls)
+  if (cumulative)
+  {
+    cdi <- sapply(2:lel, function(i){sum(a<=levls[i])})
+  }
+  else
+  {
+    cdi <- sapply(2:lel, function(i){
+      sum(a<=levls[i]) - sum(a <= levls[i-1])})
+  }
+  names(cdi) <- as.character(levls[2:lel])
+  cdi
+}
+
+MoranGeary <- function(i, data, sims, wave, groupName, varName, levls=1:2){
+  #unloadNamespace("igraph") # to avoid package clashes
+  require(sna)
+  require(network)
+  x <- as.sociomatrix(networkExtraction(i, data, sims, wave, groupName, varName[1]))
+  z <- behaviorExtraction(i,data,sims,wave,groupName,varName[2])
+  n <- length(z)
+  z.ave <- mean(z,na.rm=TRUE)
+  numerator <- n*sum(x*outer(z-z.ave,z-z.ave),na.rm=TRUE)
+  denominator <- sum(x,na.rm=TRUE)*sum((z-z.ave)^2,na.rm=TRUE)
+  res <- numerator/denominator
+  numerator <- (n-1)*sum(x*(outer(z,z,FUN='-')^2),na.rm=TRUE)
+  denominator <- 2*sum(x,na.rm=TRUE)*sum((z-z.ave)^2,na.rm=TRUE)
+  res[2] <- numerator/denominator
+  names(res) <- c("Moran","Geary")
+  return(res)
+}
+
+Moran123 <- function(i, data, sims, wave, groupName, varName, levls=1){
+  #unloadNamespace("igraph") # to avoid package clashes
+  require(sna)
+  require(network)
+  x <- as.sociomatrix(networkExtraction(i, data, sims, wave, groupName, varName[1]))
+  z <- behaviorExtraction(i,data,sims,wave,groupName,varName[2])
+  # handle missing data [not checked if this makes sense]:
+  x[is.na(x)] <- 0
+  z[is.na(z)] <- mean(z,na.rm=TRUE)
+  res <- nacf(x,z,lag.max=3,typ="moran")[2:4]
+  names(res) <- c("d=1","d=2","d=3")
+  return(res)
+}
+
+Geary123 <- function(i, data, sims, wave, groupName, varName, levls=1){
+  #unloadNamespace("igraph") # to avoid package clashes
+  require(sna)
+  require(network)
+  x <- as.sociomatrix(networkExtraction(i, data, sims, wave, groupName, varName[1]))
+  z <- behaviorExtraction(i,data,sims,wave,groupName,varName[2])
+  # handle missing data [not checked if this makes sense]:
+  x[is.na(x)] <- 0
+  z[is.na(z)] <- mean(z,na.rm=TRUE)
+  res <- nacf(x,z,lag.max=5,typ="geary")[2:4]
+  names(res) <- c("d=1","d=2","d=3")
+  return(res)
+}
+
+EgoAlterTable <- function(i, data, sims, wave, groupName, varName, levls=1){
+  #unloadNamespace("igraph") # to avoid package clashes
+  #require(sna)
+  #require(network)
+  x <- as.sociomatrix(networkExtraction(i, data, sims, wave, groupName, varName[1]))
+  z <- behaviorExtraction(i,data,sims,wave,groupName,varName[2])
+  res <- matrix(0,nr=5,nc=5)
+  for (ego in 1:5) {
+    for (alt in 1:5) {
+      thesum <- sum(x[z==ego,z==alt],na.rm=TRUE)
+      if (thesum>0) {
+        res[ego,alt] <- thesum
+      }
+    }}
+  thenames <- paste('e',col(res),'a',row(res),sep='')
+  res <- c(t(res))
+  names(res) <- thenames
+  return(res)
+}
+
+outTable <- function(x) {
+  coef <- x$theta
+  coefPretty <- sprintf("%.3f", round(coef,3))
+  se <- diag(x$covtheta)**.5
+  sePretty <- sprintf("%.3f", round(se,3))
+  pval <- 2*pnorm(-abs(coef/se))
+  symp <- symnum(pval, corr = FALSE,
+                 cutpoints = c(0,  .001,.01,.05, .1, 1),
+                 symbols = c("***","**","*","."," "))
+  convPretty <- sprintf("%.3f", round(abs(x$tconv),3))
+  out1 <- noquote(cbind(
+    Function = x$effects[[1]], 
+    Effect = x$effects[[2]], 
+    Coef = coefPretty, 
+    StEr = sePretty, 
+    Sig = symp, 
+    Conv = convPretty))
+  out2 <- paste("Maximum Convergence Ratio:", round(x$tconv.max,3))
+  return(list(out1,out2))
+}
+
+## Make Covariate vectors
+age<-nodes$age
+sex<-nodes$sex
+team<-nodes$teams
+skill<-nodes$skill
+PA<-select(nodes, PAweekly.x,PAweekly.y)
+PA<-as.matrix(PA)
+
+# Second we construct objects for the explanatory (independent) variables.
+# From the help request
+#       ?sienaDataCreate
+# we see that these can be of five kinds:
+# coCovar            Constant actor covariates
+# varCovar           Time-varying actor covariates
+# coDyadCovar        Constant dyadic covariates
+# varDyadCovar       Time-varying dyadic covariates
+# compositionChange  Composition change indicators
+
+# You can get help about this by the following requests:
+#       ?coCovar
+#       ?varCovar
+#       ?coDyadCovar
+#       ?varDyadCovar
+#       ?sienaCompositionChange
+
+# Covariate vectors into rSIENA
+sex<-coCovar(sex)
+age<-coCovar(age)
+team<-coCovar(team)
+skill<-coCovar(skill)
+
+#Dependent vector into rSiena
+PA<- sienaDependent(PA,type="behavior")
+
+
+
+# Networks must be stored as a matrix (not an edgelist);
+#   Each matrix is the same size;
+#   Matrices are ultimately layered to form an array
+# Convert network to "dependent network variable" (RSiena object):
+friends <- sienaDependent(netarray)
+
+#Creating effect data
+myData<- sienaDataCreate(friends,PA,skill,team, age, sex)
+myData
+myEffects <- getEffects(myData)
+myEffects
+
+effectsDocumentation()
+?includeEffects
+
+##Structure effects on PA
+myEffects<- includeEffects(myEffects,avSim, interaction1="friends",name="PA")
+myEffects<- includeEffects(myEffects,outdeg,indeg, interaction1="friends",name="PA")
+
+# PA effects on structure
+myEffects<- includeEffects(myEffects,egoX, interaction1="PA",name="friends")
+myEffects<- includeEffects(myEffects,altX, interaction1="PA",name="friends")
+myEffects<- includeEffects(myEffects,simX, interaction1="PA",name="friends")
+
+# Structural Effects
+myEffects <- includeEffects(myEffects,density, recip, transTrip, name="friends")
+#myEffects <- setEffect(myEffects, transRecTrip,
+#                      include=T, fix=T, test=T)
+
+#homophily terms for covariates "sameX"
+myEffects <- includeEffects(myEffects, sameX,
+                            interaction1='sex', name="friends")
+myEffects <- includeEffects(myEffects, simX,
+                            interaction1='age', name="friends")
+
+#Factor effects of covariates
+myEffects <- includeEffects(myEffects, egoX, altX, simX,
+                            interaction1='team', name="friends")
+myEffects <- includeEffects(myEffects, egoX, altX, simX,
+                            interaction1='skill', name="friends")
+myEffects <- includeEffects(myEffects, effFrom, egoX, altX,
+                            interaction1='team', name="PA")
+myEffects <- includeEffects(myEffects, effFrom,egoX, altX,
+                            interaction1='age', name="PA")
+myEffects <- includeEffects(myEffects, effFrom,egoX, altX,
+                            interaction1='sex', name="PA")
+myEffects <- includeEffects(myEffects, effFrom,egoX, altX,
+                            interaction1='skill', name="PA")
+
+
+#Check Effects
+myEffects
+
+#Create model basic
+
+modelOptions <- sienaAlgorithmCreate(
+  projname='SIENA BGC Waco', MaxDegree=c(friends=5),  
+  doubleAveraging=0, diagonalize=.2, seed=786840)
+
+#Run model
+
+myResults <- siena07(modelOptions, data=myData,
+                     effects= myEffects, batch=FALSE, verbose=FALSE)
+
+#Check Results
+summary(myResults)
+
+#check output
+outTable(myResults)
+
+# The rule of thumb is that all t-ratios for convergence
+# should ideally be less than 0.1 in absolute value,
+# and the "Overall maximum convergence ratio" should be less than 0.25;
+# this signifies good convergence of the algorithm.
+
+#Rerun for better results from previous basis
+myResults<- siena07(modelOptions, data=myData, effects=myEffects, prevAns=myResults)
+
+
+siena.table(myResults, type="html")
+?sienaGOF
+
+summary(myResults)
