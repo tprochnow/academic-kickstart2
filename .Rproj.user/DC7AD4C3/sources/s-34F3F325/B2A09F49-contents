@@ -1,0 +1,115 @@
+#Importing and cleaning whole network data
+
+#Installing and loading packages
+install.packages("network")
+install.packages("statnet")
+install.packages("sna")
+install.packages("readxl")
+install.packages("xlsx")
+library(network)
+library(statnet)
+library(sna)
+library(readxl)
+library(xlsx)
+library(tidyverse)
+
+#Read in network attributes 
+
+attr<- read_excel("[INSERT FILE NAME HERE]",col_names = T)
+
+#Read in edge list
+edges <- read_excel("[INSERT FILE NAME HERE]",col_names = T)
+edges<- select(edges, "Ego", "Alter")
+
+#create a node list for all possible nodes
+nodes<-distinct(as.data.frame(c(edges$Ego,edges$Alter)))
+
+#Rename column for better use
+nodes<-rename(nodes,"Ego"=`c(edges$Ego, edges$Alter)`)
+
+#Join to match attributes with edge list
+nodes <- left_join(nodes, attr, by="Ego")
+
+#Select columns for ease of use, optional
+nodes<-select(nodes, [INSERT ALL COLUMN NAMES WITH COMMAS BETWEEN])
+
+#Check Data
+
+Summary(nodes)
+View(nodes)
+
+#Reorder and ID nodes
+nodes<-mutate(nodes, newID=1:[NUMBER OF NODES])                               
+edges <- left_join(edges, nodes, by="Ego")
+edges <- select(edges, newID, Alter)
+edges <- rename(edges, Ego="Alter", sender="newID")
+edges <- left_join(edges, nodes, by="Ego")
+edges <- select(edges, sender, newID)
+edges <- rename(edges, target="newID")
+nodes<-nodes%>% select(newID,everything())
+network <- as.network(edges, vertices=nodes, directed=T)
+
+#Check Network
+network
+#Plot Network
+plot(network)
+
+#Add Attributes
+network %v% "[INSERT VARIABLE NAME]" <- nodes$[INSERT VARIABLE COLUMN HEAD] 
+
+#Repeat the above with each variable needed
+
+#Remove nodes that do not have self reported information
+network<-delete.vertices(network , which(is.na(network %v% "[INSERT A VARIABLE]")))
+
+#Remove NA's from the attribute table
+nodes<-nodes[!is.na(nodes$[SELECT VARIABLE]),]
+
+#Recheck the nodes and networks
+Summary(nodes)
+View(nodes)
+
+#Check Network
+network
+#Plot Network
+plot(network)
+
+### Descriptives
+
+#Component information can be obtained in various ways
+components(network) # Strong component count
+components(network, connected="weak") # Weak component count
+cd <- component.dist(network, connected="weak") # Get weak components
+cd
+
+#Degree Centrality
+degree(network) # Default: total degree
+ideg <- degree(network, cmode="indegree") # Indegree
+odeg <- degree(network, cmode="outdegree") # Outdegree
+
+#Betweenness and closeness are also popular measures
+bet <- betweenness(network, 
+                   gmode="graph") # Geographic betweenness
+bet
+
+clo <- closeness(network) # Geographic closeness
+clo 
+
+##Elementary graph-level indices
+gden(network) # Density
+grecip(network) # Dyadic reciprocity
+grecip(network, measure="edgewise") # Edgewise reciprocity
+gtrans(network) # Transitivity
+
+#Subgraph census routines, isolates, clusters, and geodesic distance
+
+dyad.census(network) # M,A,N counts
+triad.census(network) # Directed triad census
+
+### When in doubt.... GOOGLE
+
+### STATNET WEB SHINY APP
+install.packages("statnetWeb")
+library(statnetWeb)
+sessionInfo()
+run_sw()
