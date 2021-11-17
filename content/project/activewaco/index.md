@@ -30,7 +30,7 @@ math = false
 **Project Goals** <br /><br />
 	The goal of this project is to better understand how the Waco community is physically active and how Waco promotes active living, physical activity, and health within the community. National health organizations put out active living plans which we are working with the Public Health District to develop for the community, but we know that the best way we can tailor these guidelines and recommendations for the Waco community is to first listen to the community. This is where you come in!. 
 <br /><br />
-**Tasks** <br /><br />
+**Can you help us?** <br /><br />
 	We will be conducting a survey and focus groups in the Waco community to better understand how individuals are physically active and how the environment in Waco facilitates or inhibits activity which promotes health! We hope you consider taking our survey (10-15 minutes long) in which all participants will be entered to win one of five $50 gift cards or our focus groups (60 minutes) in which all participants get $25 gift cards.
 <br /><br />	
 **Waco Residents - Please consider participating by taking the survey and/or signing up for a focus group**
