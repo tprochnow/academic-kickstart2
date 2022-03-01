@@ -27,6 +27,15 @@ math = false
 # caption = "My caption :smile:"
 
 +++
+**We need your voice!** <br /><br />
+	We will be conducting a survey and community conversations in the Waco-McLennan County community to better understand how you are physically active and how Waco can promote health and physical activity! We hope you consider taking our survey (10-15 minutes long) in which everyone will be entered to win one of 10 $25 gift cards and/or our community conversations (60 minutes) in which all participants get $20 gift cards.
+<br /><br />	
+**Waco-McLennan County Residents - Please consider participating by taking the survey and/or signing up for a community conversation**
+<br /><br />
+[Click here for the survey](https://bit.ly/activewaco1)
+<br /><br />
+[Click here to sign-up for a community conversation / focus group](https://tamucehd.qualtrics.com/jfe/form/SV_6x7wtjQzzk38vVs)
+<br /><br />
 **Project Goals** <br /><br />
 
 1. To better understand how the Waco-McLennan County community is physically active.
@@ -36,15 +45,7 @@ math = false
 3. To develop an Active Living Plan based on the information shared by the community.
 
 <br /><br />
-**We need your voice!** <br /><br />
-	We will be conducting a survey and community conversations in the Waco-McLennan County community to better understand how you are physically active and how Waco can promote health and physical activity! We hope you consider taking our survey (10-15 minutes long) in which everyone will be entered to win one of five $50 gift cards and/or our community conversations (60 minutes) in which all participants get $25 gift cards.
-<br /><br />	
-**Waco-McLennan County Residents - Please consider participating by taking the survey and/or signing up for a community conversation**
-<br /><br />
-[Click here for the survey](https://bit.ly/activewaco1)
-<br /><br />
-[Click here to sign-up for a focus group](https://tamucehd.qualtrics.com/jfe/form/SV_6x7wtjQzzk38vVs)
-<br /><br />
+
 **Contact** <br /><br />
 For questions, comments, or concerns please contact Tyler Prochnow at tprochnow@tamu.edu or 262.945.0275 or Meg Patterson at megpatterson@tamu.edu.
 <br /><br />
