@@ -77,3 +77,5 @@ user_groups:
 ---
 
 Tyler Prochnow, PhD is an Assistant Professor at Texas A&M University. His research interests include the social dynamics which drive health behavior. Tyler has research experience with social network analysis, systematic observation, intervention development, community health worker training, and implementation science. 
+
+{{< youtube 4p_yc-66b-M >}}
