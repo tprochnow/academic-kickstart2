@@ -1,0 +1,24 @@
+{
+    "id": "F6A7CD9E",
+    "path": "~/GitHub/Tprochnow.com/config/_default/menus.toml",
+    "project_path": "config/_default/menus.toml",
+    "type": "toml",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1647872197775.0,
+    "source_on_save": false,
+    "relative_order": 8,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1625598067,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1625598067,
+    "read_only": false,
+    "read_only_alternatives": []
+}
