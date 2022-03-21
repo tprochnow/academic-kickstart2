@@ -32,9 +32,9 @@ math = false
 <br /><br />	
 **Waco-McLennan County Residents - Please consider participating by taking the survey and/or signing up for a community conversation**
 <br /><br />
-[Click here for the survey](https://bit.ly/activewaco1)
+[**Click here for the survey**](https://bit.ly/activewaco1)
 <br /><br />
-[Click here to sign-up for a community conversation / focus group](https://tamucehd.qualtrics.com/jfe/form/SV_6x7wtjQzzk38vVs)
+[**Click here to sign-up for a community conversation / focus group**](https://tamucehd.qualtrics.com/jfe/form/SV_6x7wtjQzzk38vVs)
 <br /><br />
 **Project Goals** <br /><br />
 
