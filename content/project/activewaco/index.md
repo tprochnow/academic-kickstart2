@@ -34,14 +34,11 @@ math = false
 <br /><br />
 [**Click here for the survey**](https://bit.ly/activewaco1)
 <br /><br />
+<button onclick="window.location.href='https://bit.ly/activewaco1';">Click here for the Survey</button>
+<br /><br />
 [**Click here to sign-up for a community conversation / focus group**](https://tamucehd.qualtrics.com/jfe/form/SV_6x7wtjQzzk38vVs)
 <br /><br />
-
-<button onclick="window.location.href='https://bit.ly/activewaco1';">Click</button>
-
-<br /><br />
-
-<button onclick="window.location.href='https://bing.com';">Click</button>
+<button onclick="window.location.href='https://tamucehd.qualtrics.com/jfe/form/SV_6x7wtjQzzk38vVs';">Click here to sign-up for the community conversation</button>
 
 **Project Goals** <br /><br />
 
