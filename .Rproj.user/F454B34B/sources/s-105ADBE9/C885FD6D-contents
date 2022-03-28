@@ -37,9 +37,9 @@ math = false
 [**Click here to sign-up for a community conversation / focus group**](https://tamucehd.qualtrics.com/jfe/form/SV_6x7wtjQzzk38vVs)
 <br /><br />
 
-{{< cta cta_text="Click here for the survey" cta_link="https://bit.ly/activewaco1" cta_new_tab="true" >}}
+{{< cta cta_text="Click here for the survey" cta_link="bit.ly/activewaco1" cta_new_tab="true" >}}
 
-{{< cta cta_text="Click here to sign-up for a community conversation / focus group" cta_link="https://tamucehd.qualtrics.com/jfe/form/SV_6x7wtjQzzk38vVs" cta_new_tab="true" >}}
+{{< cta cta_text="Click here to sign-up for a community conversation / focus group" cta_link="tamucehd.qualtrics.com/jfe/form/SV_6x7wtjQzzk38vVs" cta_new_tab="true" >}}
 <br /><br />
 **Project Goals** <br /><br />
 
