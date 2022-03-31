@@ -34,6 +34,8 @@ math = false
 <br /><br />
 <button onclick="window.location.href='https://bit.ly/activewaco1';">**Click here for the Survey**</button>
 <br /><br />
+<button onclick="window.location.href='https://tamucehd.qualtrics.com/jfe/form/SV_6n8v5Yvs224OTqe';">**Haga clic aquí para ver la encuesta en Español**</button>
+<br /><br />
 <button onclick="window.location.href='https://tamucehd.qualtrics.com/jfe/form/SV_6x7wtjQzzk38vVs';">**Click here to sign-up for the community conversation**</button>
 
 **Project Goals** <br /><br />
