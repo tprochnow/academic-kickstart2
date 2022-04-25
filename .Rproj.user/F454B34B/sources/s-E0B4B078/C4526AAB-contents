@@ -1,6 +1,6 @@
 +++
 title = "Associations between sexual assault victimization and risky drinking within college women’s personal networks"
-date = 2022-5-28
+date = 2022-05-28
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
