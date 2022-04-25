@@ -18,8 +18,8 @@ authors = ["Prochnow, T", "Umstattd Meyer, MR","Patterson, MS", "Meyer, A", "Tal
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "*Family & Community Health*"
-publication_short = "*Family & Community Health*"
+publication = "*American Journal of Health Education*"
+publication_short = "*American Journal of Health Education*"
 
 # Abstract and optional shortened version.
  abstract = "BACKGROUND Physical activity (PA) is beneficial for physical, mental, and emotional health; however, Latinx children report lower PA levels. Scholars have called for a renewed focus on fathers to promote child health. PURPOSE This study examines changes in Mexican-heritage child active play networks through participation in a father-focused family-centered health program. METHODS Families (child aged 9–11, mother, and father) from colonias participated in a six-week healthy eating and active living program. Children reported up to five people they actively played with most before and after the program, their relationship, frequency with which they played with the person, and what they did most often with that person. RESULTS Children (n = 42, M age = 9.79, SD = 1.01; 54.8% girls) reported a mean of 3.79 people in their network before and 4.24 people after the program. Children reported significantly more frequent active play with others after the program. Girls reported significantly more frequent active play with others when compared to boys; however, boys were significantly more likely to increase their frequency of active play with others. DISCUSSION Results indicate family-centered father-focused programs could increase active play with networks. TRANSLATION TO HEALTH EDUCATION PRACTICE Incorporating elements of co-participation in active play may increase frequency of active play."
