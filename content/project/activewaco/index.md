@@ -27,17 +27,6 @@ math = false
 # caption = "My caption :smile:"
 
 +++
-**We need your voice!** <br /><br />
-	We will be conducting a survey and community conversations in the Waco-McLennan County community to better understand how you are physically active and how Waco can promote health and physical activity! We hope you consider taking our survey (10-15 minutes long) in which everyone will be entered to win one of 10 $25 gift cards and/or our community conversations (60 minutes) in which all participants get $20 gift cards.
-<br /><br />	
-**Waco-McLennan County Residents - Please consider participating by taking the survey and/or signing up for a community conversation**
-<br /><br />
-<button onclick="window.location.href='https://bit.ly/activewaco1';">**Click here for the Survey**</button>
-<br /><br />
-<button onclick="window.location.href='https://tamucehd.qualtrics.com/jfe/form/SV_6n8v5Yvs224OTqe';">**Haga clic aquí para ver la encuesta en Español**</button>
-<br /><br />
-<button onclick="window.location.href='https://tamucehd.qualtrics.com/jfe/form/SV_6x7wtjQzzk38vVs';">**Click here to sign-up for the community conversation**</button>
-
 **Project Goals** <br /><br />
 
 1. To better understand how the Waco-McLennan County community is physically active.
@@ -47,9 +36,16 @@ math = false
 3. To develop an Active Living Plan based on the information shared by the community.
 
 <br /><br />
+**Final Report** <br /><br />
+[Waco-McLennan County Active Living Plan](/files/WMCALP.pdf)
+<br /><br />
 
-**Contact** <br /><br />
-For questions, comments, or concerns please contact Tyler Prochnow at tprochnow@tamu.edu or 262.945.0275 or Meg Patterson at megpatterson@tamu.edu.
+<object data="http://tprochnow.com/files/WMCALP.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="http://tprochnow.com/files/WMCALP.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://tprochnow.com/files/WMCALP.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+
 <br /><br />
 **Disclaimer** <br /><br />
 This project was supported by the Waco-McLennan County Public Health District, funded  as well as the Texas Healthy Communities grant and the Texas Health and Human Services.
