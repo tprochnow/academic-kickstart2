@@ -40,11 +40,7 @@ math = false
 [Waco-McLennan County Active Living Plan](/files/WMCALP.pdf)
 <br /><br />
 
-<object data="http://tprochnow.com/files/WMCALP.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="http://tprochnow.com/files/WMCALP.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://tprochnow.com/files/WMCALP.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+<embed src="/files/WMCALP.pdf" type="application/pdf">
 
 <br /><br />
 **Disclaimer** <br /><br />
