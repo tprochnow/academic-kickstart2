@@ -3,7 +3,7 @@
     "path": "~/GitHub/Tprochnow.com/content/publication/sophescan/index.md",
     "project_path": "content/publication/sophescan/index.md",
     "type": "markdown",
-    "hash": "2972967208",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1663698774090.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "24,1884",
+        "cursorPosition": "24,958",
         "scrollLine": "25"
     },
     "folds": "",
-    "lastKnownWriteTime": 1663698813,
+    "lastKnownWriteTime": 1663698961,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1663698813865,
+    "last_content_update": 1663698961553,
     "read_only": false,
     "read_only_alternatives": []
 }

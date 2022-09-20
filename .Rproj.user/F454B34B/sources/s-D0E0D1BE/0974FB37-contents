@@ -35,11 +35,11 @@ featured = false
 #   Simply enter your project's filename without extension.
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
 #   Otherwise, set `projects = []`.
-projects = [cdcscan]
+projects = ["cdcscan"]
 
 # Tags (optional).
 #   Set `tags = ["Advertising", "Location Based", "Virtual Reality"]` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
- tags = [""]
+ tags = ["Youth PA"]
 
 # Links (optional).
 # url_pdf = "https://newprairiepress.org/cgi/viewcontent.cgi?article=1063&context=hbr"
