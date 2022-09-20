@@ -40,7 +40,7 @@ math = false
 [Waco-McLennan County Active Living Plan](/files/WMCALP.pdf)
 <br /><br />
 
-<embed src="/files/WMCALP.pdf" type="application/pdf" width="100%">
+<embed src="/files/WMCALP.pdf" type="application/pdf" width="100%" length="100%">
 
 <br /><br />
 **Disclaimer** <br /><br />
