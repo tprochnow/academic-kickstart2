@@ -1,17 +1,19 @@
 {
-    "id": "0B60DBBC",
-    "path": "~/GitHub/Tprochnow.com/themes/academic/netlify.toml",
-    "project_path": "themes/academic/netlify.toml",
-    "type": "toml",
-    "hash": "288072446",
+    "id": "D5E343B1",
+    "path": "~/GitHub/Tprochnow.com/themes/academic/package.json",
+    "project_path": "themes/academic/package.json",
+    "type": "json",
+    "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1702314189279.0,
+    "created": 1702314197264.0,
     "source_on_save": false,
-    "relative_order": 10,
+    "relative_order": 12,
     "properties": {
         "source_window_id": "",
-        "Source": "Source"
+        "Source": "Source",
+        "cursorPosition": "19,59",
+        "scrollLine": "0"
     },
     "folds": "",
     "lastKnownWriteTime": 1648052476,

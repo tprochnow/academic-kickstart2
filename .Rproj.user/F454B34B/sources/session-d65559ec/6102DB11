@@ -3,7 +3,7 @@
     "path": "~/GitHub/Tprochnow.com/themes/academic/layouts/publication/single.html",
     "project_path": "themes/academic/layouts/publication/single.html",
     "type": "html",
-    "hash": "1505000659",
+    "hash": "3875192827",
     "contents": "",
     "dirty": false,
     "created": 1702317039386.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "11,13",
-        "scrollLine": "0"
+        "cursorPosition": "13,36",
+        "scrollLine": "4"
     },
     "folds": "",
-    "lastKnownWriteTime": 1702317596,
+    "lastKnownWriteTime": 1702317947,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1702317596263,
+    "last_content_update": 1702317947460,
     "read_only": false,
     "read_only_alternatives": []
 }
